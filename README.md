@@ -18,10 +18,6 @@ Follow these steps to get the agent running on your Mac:
 1.  **Install uv**:
     If you don't have `uv` installed, use one of the following methods:
 
-    *   Using `pip` (if you have another Python environment active):
-        ```bash
-        pip install uv
-        ```
     *   Using `curl`:
         ```bash
         curl -LsSf https://astral.sh/uv/install.sh | sh
