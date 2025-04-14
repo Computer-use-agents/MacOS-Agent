@@ -13,6 +13,7 @@ This document provides instructions on how to set up, install dependencies for, 
 
 ## Installation
 
+### Python Environment
 Follow these steps to get the agent running on your Mac:
 
 1.  **Install uv**:
@@ -53,8 +54,37 @@ Follow these steps to get the agent running on your Mac:
 
     The dependencies will be installed from their respective Git repositories as specified in the project configuration.
 
-4.  **Run the Agent**:
+### Playwright
+
+Playwright is a tool for automating web browsers. It is used to test and automate web browsers.
+
+```bash
+brew install playwright
+```
+
+```bash
+playwright install
+```
+
+## Accessiblity Tree Premission
+
+Grant accessibility permissions to your code editor (VSCode/Cursor) in macOS System Settings:
+
+1. Open System Settings > Privacy & Security > Accessibility
+2. Click the "+" button to add your editor
+3. Navigate to Applications and select your editor
+4. Enable the permission by checking the box
+
+![Accessibility Tree Permission 1](figure/acc_tree1.png) ![Accessibility Tree Permission 2](figure/acc_tree2.png) ![Accessibility Tree Permission 3](figure/acc_tree3.png)
+
+This allows your editor to interact with system UI elements required for automation.
+
+
+
+## Run the Agent:
+    
     Use `uv` to run the agent:
+
     ```bash
     uv run examples/smol_broswer_calendar_test.py
     ```
