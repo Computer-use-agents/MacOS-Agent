@@ -9,3 +9,5 @@ powerpoint-agent @ git+https://github.com/Computer-use-agents/PowerPoint-Agent.g
 excel-agent @ git+https://github.com/Computer-use-agents/Excel-Agent.git
 preview-agent @ git+https://github.com/Computer-use-agents/Preview-Agent.git
 browser-agent @ git+https://github.com/Computer-use-agents/Browser-Agent.git
+textedit-agent @ git+https://github.com/Computer-use-agents/TextEdit-Agent.git
+finder-agent @ git+https://github.com/Computer-use-agents/Finder-Agent.git
