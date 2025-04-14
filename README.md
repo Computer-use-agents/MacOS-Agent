@@ -90,5 +90,5 @@ This allows your editor to interact with system UI elements required for automat
     Use `uv` to run the agent:
 
     ```bash
-    uv run examples/smol_broswer_calendar_test.py
+    uv run main.py --prompt <your prompt>
     ```
