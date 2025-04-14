@@ -89,5 +89,5 @@ This allows your editor to interact with system UI elements required for automat
     Use `uv` to run the agent:
 
     ```bash
-    uv run main.py --prompt <your prompt>
+    uv run main.py --prompt <your task for macosagent>
     ```
