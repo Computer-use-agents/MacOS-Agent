@@ -3,13 +3,13 @@ import sys
 sys.path.append('.')
 from macosagent.macosagent import create_agent
 # from dotenv import load_dotenv
-import weave
+# import weave
 # load the environment variables from .env file
 from dotenv import load_dotenv
 load_dotenv()
 
-weave.init("Macosagent")
-@weave.op()
+# weave.init("Macosagent")
+# @weave.op()
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(

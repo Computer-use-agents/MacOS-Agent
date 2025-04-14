@@ -1,7 +1,7 @@
 [project]
 name = "macos-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "MacOS Agent is a collection of agents that can be used to automate tasks on a MacOS system."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -13,6 +13,7 @@ dependencies = [
     "powerpoint-agent",
     "preview-agent",
     "textedit-agent",
+    "weave>=0.51.42",
     "wechat-agent",
     "word-agent",
 ]

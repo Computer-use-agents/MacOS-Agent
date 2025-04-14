@@ -38,53 +38,27 @@ Follow these steps to get the agent running on your Mac:
     cd MacOS-Agent             # Navigate into the project directory
     ```
 
-3.  **Create a Virtual Environment**:
-    Use `uv` to create a dedicated virtual environment using Python 3.11:
+3.  **Install Dependencies**:
+    Use `uv` to install the required dependencies:
     ```bash
-    uv venv --python 3.11 .venv
+    uv sync
     ```
-    This command creates a directory named `.venv`. If `uv` cannot find a Python 3.11 installation, ensure it's installed and available in your system's PATH.
+    This will install all dependencies specified in `pyproject.toml`, including:
+    - Browser Agent
+    - Calendar Agent 
+    - Excel Agent
+    - Finder Agent
+    - Player Agent (QuickTime)
+    - PowerPoint Agent
+    - Preview Agent
+    - TextEdit Agent
+    - WeChat Agent
+    - Word Agent
 
-4.  **Activate the Virtual Environment**:
-    Before installing dependencies or running the agent, activate the environment in your Terminal:
+    The dependencies will be installed from their respective Git repositories as specified in the project configuration.
+
+4.  **Run the Agent**:
+    Use `uv` to run the agent:
     ```bash
-    source .venv/bin/activate
+    uv run examples/smol_broswer_calendar_test.py
     ```
-    Your shell prompt should change to indicate the active environment (e.g., `(.venv) ...`).
-
-5.  **Install Dependencies**:
-    Install the required packages using `uv`, depending on how the project's dependencies are defined:
-
-    *   **Method 1: Using `uv add`**
-        
-        ```bash
-        uv add "word-agent @ git+https://github.com/Computer-use-agents/Word-Agent.git"
-        uv add "wechat-agent @ git+https://github.com/Computer-use-agents/Wechat-Agent.git"
-        uv add "finder-agent @ git+https://github.com/Computer-use-agents/Finder-Agent.git"
-        uv add "calendar-agent @ git+https://github.com/Computer-use-agents/Calendar-Agent.git"
-        uv add "player-agent @ git+https://github.com/Computer-use-agents/QuickTime-Agent.git"
-        uv add "powerpoint-agent @ git+https://github.com/Computer-use-agents/PowerPoint-Agent.git"
-        uv add "excel-agent @ git+https://github.com/Computer-use-agents/Excel-Agent.git"
-        uv add "preview-agent @ git+https://github.com/Computer-use-agents/Preview-Agent.git"
-        uv add "browser-agent @ git+https://github.com/Computer-use-agents/Browser-Agent.git"
-        ```
-    *   **Method 2: Using `requirements.txt`**
-        If the project uses a `requirements.txt` file:
-        ```bash
-        uv pip install -r requirements.txt
-        ```
-        *(Replace `requirements.txt` if your file has a different name)*
-
-
-
-    *   **Note on `uv add`**: The `uv add <package-name>` command is used to *add* a new dependency to your `pyproject.toml` file and install it. It's not typically used for installing all dependencies from a pre-existing list like `requirements.txt`.
-
-## Running the Agent
-
-Once the setup is complete and the virtual environment is active, run the agent from your Terminal:
-
-```bash
-python3 main.py # Replace with the actual command to start the agent
-```
-
-*(Ensure you replace `<repository-url>` and the agent execution command with the correct values for this project.)*
