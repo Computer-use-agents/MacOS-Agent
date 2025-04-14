@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+**/__pycache__/
+*/__pycache__/*
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+.dist
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+macosagent/data
+macosagent/tmp
+macosagent/.env
+macosagent/utils/__pycache__/
+macosagent/__pycache__/
+
+# Logs
+*.log
+logs/
+log/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.appagent
+coverage.xml
+*.cover
+macosagent/__pycache__/
+macosagent/llm_engine/types/__pycache__/
+macosagent/utils/__pycache__/
+macosagent/camel/utils/__pycache_/
+results
+data
+
+cua
