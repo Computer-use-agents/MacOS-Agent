@@ -75,7 +75,11 @@ Grant accessibility permissions to your code editor (VSCode/Cursor) in macOS Sys
 3. Navigate to Applications and select your editor
 4. Enable the permission by checking the box
 
-![Accessibility Tree Permission 1](figure/acc_tree1.png) ![Accessibility Tree Permission 2](figure/acc_tree2.png) ![Accessibility Tree Permission 3](figure/acc_tree3.png)
+<div style="display: flex; justify-content: space-between;">
+    <img src="figure/acc_tree1.png" alt="Accessibility Tree Permission 1" width="32%">
+    <img src="figure/acc_tree2.png" alt="Accessibility Tree Permission 2" width="32%">
+    <img src="figure/acc_tree3.png" alt="Accessibility Tree Permission 3" width="32%">
+</div>
 
 This allows your editor to interact with system UI elements required for automation.
 
