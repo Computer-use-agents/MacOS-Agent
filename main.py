@@ -17,7 +17,6 @@ def main():
     args = parser.parse_args()
     agent = create_agent()
     result = agent.run(args.prompt)
-    agent.save_trajectory()
     print("Agent Response:", result)
 
 if __name__ == "__main__":
