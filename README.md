@@ -58,11 +58,10 @@ Follow these steps to get the agent running on your Mac:
 
 Playwright is a tool for automating web browsers. It is used to test and automate web browsers.
 
+
 ```bash
-#use brew to install playwright
-brew install playwright
-#install playwright 
-playwright install
+# use npm to install playwright
+npm init playwright@latest
 ```
 
 ## Accessiblity Tree Premission
