@@ -8,6 +8,7 @@ from wechat_agent import WechatAgent
 from excel_agent import ExcelAgent
 from calendar_agent import CalendarAgent
 from preview_agent import PreviewAgent
+from player_agent import PlayerAgent
 
 def get_app_agent_box():
     APP_AGENT_BOX = [
@@ -20,5 +21,6 @@ def get_app_agent_box():
         CalendarAgent(),
         ExcelAgent(),
         PreviewAgent(),
+        PlayerAgent()
     ]
     return APP_AGENT_BOX

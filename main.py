@@ -12,7 +12,7 @@ def main():
     parser.add_argument(
         "--prompt", 
  
-        default="Search for the date of Stefanie Sun's most recent concert and add a calendar reminder for me to attend on that day.",
+        default="Use QuickTimePlayer to cut the video '/Users/pengxiang/Documents/Code/MacOS-Agent/data/test.mov' to only save the last 3 seconds. Also, could you identify where this video is taken and look up the most famous attractions in that place and compile them into an Excel table '/Users/pengxiang/Documents/Code/MacOS-Agent/data/Attractions.xlsx'?",
         help="Instructions that you want agent to execute.")
     args = parser.parse_args()
     agent = create_agent()
