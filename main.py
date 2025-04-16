@@ -12,8 +12,7 @@ def main():
     parser.add_argument(
         "--prompt", 
  
-        default="Use QuickTimePlayer to cut the video '/Users/pengxiang/Documents/Code/MacOS-Agent/data/test.mov' to only save the last 3 seconds. Also, could you identify where this video is taken and look up the most famous attractions in that place and compile them into an Excel table '/Users/pengxiang/Documents/Code/MacOS-Agent/data/Attractions.xlsx'?",
-        help="Instructions that you want agent to execute.")
+        default="Search for information about NeurIPS 2025, extract key event details (date, location, submission deadline), save it in a structured Excel spreadsheet at /Users/pengxiang/Documents/Code/MacOS-Agent/data/NeurIPS2025_Details.xlsx, and add the submission deadline to the calendar..")
     args = parser.parse_args()
     agent = create_agent()
     result = agent.run(args.prompt)

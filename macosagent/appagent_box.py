@@ -9,6 +9,7 @@ from excel_agent import ExcelAgent
 from calendar_agent import CalendarAgent
 from preview_agent import PreviewAgent
 from player_agent import PlayerAgent
+from textedit_agent import TextEditAgent
 
 def get_app_agent_box():
     APP_AGENT_BOX = [
@@ -21,6 +22,7 @@ def get_app_agent_box():
         CalendarAgent(),
         ExcelAgent(),
         PreviewAgent(),
-        PlayerAgent()
+        PlayerAgent(),
+        TextEditAgent(),
     ]
     return APP_AGENT_BOX
