@@ -1,26 +1,33 @@
+"""Module containing the collection of application agents for the MacOS Agent system."""
+
+from typing import List
+
 from browser_agent import BrowserAgent
 from calendar_agent import CalendarAgent
-from textedit_agent import TextEditAgent
-from word_agent import WordAgent
+from excel_agent import ExcelAgent
 from finder_agent import FinderAgent
 from powerpoint_agent import PowerPointAgent
-from wechat_agent import WechatAgent
-from excel_agent import ExcelAgent
-from calendar_agent import CalendarAgent
 from preview_agent import PreviewAgent
-from player_agent import PlayerAgent
+from textedit_agent import TextEditAgent
+from wechat_agent import WechatAgent
+from word_agent import WordAgent
 
-def get_app_agent_box():
-    APP_AGENT_BOX = [
-        FinderAgent(),
-        TextEditAgent(),
+
+def get_app_agent_box() -> List[object]:
+    """Get a list of all available application agents.
+    
+    Returns:
+        List[object]: A list containing instances of all available application agents.
+    """
+    app_agent_box = [
         BrowserAgent(),
-        PowerPointAgent(),
-        WechatAgent(),
-        WordAgent(),
         CalendarAgent(),
         ExcelAgent(),
+        FinderAgent(),
+        PowerPointAgent(),
         PreviewAgent(),
-        PlayerAgent(),
+        TextEditAgent(),
+        WechatAgent(),
+        WordAgent(),
     ]
-    return APP_AGENT_BOX
+    return app_agent_box
