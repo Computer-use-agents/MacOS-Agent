@@ -9,6 +9,7 @@ dependencies = [
     "calendar-agent",
     "excel-agent",
     "finder-agent",
+    "langfuse>=2.60.3",
     "openai>=1.66.5",
     "player-agent",
     "powerpoint-agent",

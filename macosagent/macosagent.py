@@ -2,12 +2,18 @@
 
 import os
 from importlib.resources import files
+import sys
 from typing import Any
 
 import yaml
 from smolagents import AzureOpenAIServerModel, CodeAgent
 
-from appagent_box import get_app_agent_box
+# Add current directory to Python path
+sys.path.append('.')
+
+
+from macosagent.appagent_box import get_app_agent_box  
+
 
 
 def create_agent() -> CodeAgent:

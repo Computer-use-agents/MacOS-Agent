@@ -9,8 +9,8 @@ import sys
 from typing import Any
 
 from dotenv import load_dotenv
-from openinference.instrumentation.smolagents import SmolagentsInstrumentor
-from phoenix.otel import register
+# from openinference.instrumentation.smolagents import SmolagentsInstrumentor
+# from phoenix.otel import register
 
 # Add current directory to Python path
 sys.path.append('.')
@@ -18,9 +18,9 @@ sys.path.append('.')
 # Load environment variables
 load_dotenv()
 
-# Initialize OpenTelemetry instrumentation
-register()
-SmolagentsInstrumentor().instrument()
+# # Initialize OpenTelemetry instrumentation
+# register()
+# SmolagentsInstrumentor().instrument()
 
 from macosagent.macosagent import create_agent
 
