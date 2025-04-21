@@ -68,3 +68,6 @@ result
 cua
 examples/*
 examples
+.pre-commit-config.yaml
+ruff.toml
+pylintrc
