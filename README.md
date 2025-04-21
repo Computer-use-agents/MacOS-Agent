@@ -1,7 +1,5 @@
 # MacOS Agent
 
-[//]: # (Optional: Add a brief one-sentence description of the agent here)
-
 This document provides instructions on how to set up, install dependencies for, and run the MacOS Agent using `uv`, the fast Python package installer and resolver.
 
 ## Prerequisites

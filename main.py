@@ -9,6 +9,7 @@ import sys
 from typing import Any
 
 from dotenv import load_dotenv
+
 # from openinference.instrumentation.smolagents import SmolagentsInstrumentor
 # from phoenix.otel import register
 
