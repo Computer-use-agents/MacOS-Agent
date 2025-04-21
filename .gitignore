@@ -71,3 +71,4 @@ examples
 .pre-commit-config.yaml
 ruff.toml
 pylintrc
+.ruff_cache
