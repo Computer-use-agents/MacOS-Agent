@@ -5,7 +5,6 @@ with the provided prompt.
 """
 
 import argparse
-import sys
 from typing import Any
 
 from dotenv import load_dotenv
@@ -13,8 +12,6 @@ from dotenv import load_dotenv
 # from openinference.instrumentation.smolagents import SmolagentsInstrumentor
 # from phoenix.otel import register
 
-# Add current directory to Python path
-sys.path.append('.')
 
 # Load environment variables
 load_dotenv()
@@ -23,7 +20,7 @@ load_dotenv()
 # register()
 # SmolagentsInstrumentor().instrument()
 
-from macosagent.macosagent import create_agent
+from macosagent.macosagent import create_agent # pylint: disable=eval-used
 
 
 def main() -> None:

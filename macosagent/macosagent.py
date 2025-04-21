@@ -1,17 +1,14 @@
 """MacOS Agent module for creating and managing AI agents."""
 
 import os
-import sys
 from importlib.resources import files
 from typing import Any
 
 import yaml
+
+
 from smolagents import AzureOpenAIServerModel, CodeAgent, OpenAIServerModel
 from macosagent.appagent_box import get_app_agent_box
-
-# Add current directory to Python path
-sys.path.append('.')
-
 
 def create_agent() -> CodeAgent:
     """Create and initialize a MacOS agent with configured model and tools.
