@@ -14,6 +14,7 @@ dependencies = [
     "player-agent",
     "powerpoint-agent",
     "preview-agent",
+    "pytest>=8.3.5",
     "smolagents>=1.13.0",
     "textedit-agent",
     "weave>=0.51.42",
