@@ -6,10 +6,14 @@
 use uv to run the agent
 ```bash
 uv sync
-uv run macosagent execute examples/task1.json
+uv run macosagent execute examples/tasks/task1.json
 ```
-Checkout `examples/task1.json` for an example task.
-
+Checkout `examples/tasks/task1.json` for an example task. Below is an example task:
+```json
+{
+  "task": "a task instruction'",
+}
+```
 ### Pre-commit Hooks
 
 This project uses pre-commit hooks to ensure code quality before each commit. The setup includes:
