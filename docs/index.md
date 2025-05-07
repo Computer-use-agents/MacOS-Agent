@@ -1,6 +1,15 @@
 # MacOS Agent
 ## Development Setup
 
+### Executing the agent
+
+use uv to run the agent
+```bash
+uv sync
+uv run macosagent execute examples/task1.json
+```
+Checkout `examples/task1.json` for an example task.
+
 ### Pre-commit Hooks
 
 This project uses pre-commit hooks to ensure code quality before each commit. The setup includes:
