@@ -67,7 +67,7 @@ def start(
 ):
     setup_logging(log_level, log_dir)
     logger.info(f"Starting MacOS Agent {run_id}; {task}")
-    @trace_with_metadata(custom_id=run_id)
+    @trace_with_metadata(custom_id=run_id, name="macosagent")
     def run_agent(task):
         agent = create_agent()
         result = agent.run(task)
@@ -90,7 +90,7 @@ def execute(
     with open(file_path) as f:
         json_data = json.load(f)
     task = json_data["task"]
-    @trace_with_metadata(custom_id=run_id)
+    @trace_with_metadata(custom_id=run_id, name="macosagent")
     def run_agent(task):
         agent = create_agent()
         result = agent.run(task)

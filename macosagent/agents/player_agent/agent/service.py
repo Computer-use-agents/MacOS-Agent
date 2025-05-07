@@ -32,6 +32,7 @@ from macosagent.agents.player_agent.player.player import Player, PlayerConfig
 
 # Local imports
 from macosagent.llm import LLMEngine, create_langchain_llm_client
+from macosagent.llm.tracing import trace_with_metadata
 
 # ... existing code ...
 
@@ -361,6 +362,7 @@ class PlayerAgent(Tool):
     }
     output_type = "string"
 
+    @trace_with_metadata(observation_name="player_agent", tags=["player_agent"])
     def forward(self, instruction: str) -> str:
         llm = create_langchain_llm_client()
         agent = ReactJsonAgent(llm=llm)

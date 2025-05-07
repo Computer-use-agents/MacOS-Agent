@@ -35,6 +35,7 @@ from macosagent.agents.calendar_agent.calendar import (
 )
 from macosagent.agents.calendar_agent.controller import Controller
 from macosagent.llm import LLMEngine, create_langchain_llm_client
+from macosagent.llm.tracing import trace_with_metadata
 
 logger = logging.getLogger(__name__)
 
@@ -352,6 +353,7 @@ class CalendarAgent(Tool):
     }
     output_type = "string"
 
+    @trace_with_metadata(observation_name="calendar_agent", tags=["calendar_agent"])
     def forward(self, instruction: str) -> str:
         logger.info(f'Execute instruction: {instruction}')
         llm = create_langchain_llm_client()

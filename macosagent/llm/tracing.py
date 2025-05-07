@@ -22,12 +22,17 @@ else:
     langfuse_handler = None
     import openai  # noqa: F401
 
-def trace_with_metadata(custom_id: str | None = None):
+def trace_with_metadata(
+        name: str | None = None,
+        custom_id: str | None = None,
+        tags: list[str] | None = None,
+        observation_name: str | None = None):
     """
     A decorator that adds tracing with metadata to a function.
     If tracing is disabled, the function will execute normally without tracing.
     
     Args:
+        name (Optional[str]): The name of the trace
         custom_id (Optional[str]): A custom identifier to be added to the trace metadata
     """
     def decorator(func: Callable) -> Callable:
@@ -43,7 +48,14 @@ def trace_with_metadata(custom_id: str | None = None):
             from langfuse.decorators import langfuse_context, observe
             @observe
             def traced_func(*args: Any, **kwargs: Any) -> Any:
-                langfuse_context.update_current_trace(metadata=metadata)
+                if len(metadata) > 0:
+                    langfuse_context.update_current_trace(metadata=metadata)
+                if name:
+                    langfuse_context.update_current_trace(name=name)
+                if tags is not None and len(tags) > 0:
+                    langfuse_context.update_current_trace(tags=tags)
+                if observation_name:
+                    langfuse_context.update_current_observation(name=observation_name)
                 return func(*args, **kwargs)
 
             return traced_func(*args, **kwargs)

@@ -33,6 +33,7 @@ from macosagent.agents.preview_agent.preview.context import PreviewContext
 
 # Local imports
 from macosagent.llm import LLMEngine, create_langchain_llm_client
+from macosagent.llm.tracing import trace_with_metadata
 
 # Initialize logger
 logger = logging.getLogger(__name__)
@@ -432,6 +433,7 @@ class PreviewAgent(Tool):
     }
     output_type = "string"
 
+    @trace_with_metadata(observation_name="preview_agent", tags=["preview_agent"])
     def forward(self, instruction: str) -> str:
         llm = create_langchain_llm_client()
         agent = ReactJsonAgent(llm=llm)

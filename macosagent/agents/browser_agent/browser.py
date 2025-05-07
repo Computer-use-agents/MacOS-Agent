@@ -5,6 +5,7 @@ from browser_use import Agent
 from smolagents import Tool
 
 from macosagent.llm import create_langchain_llm_client
+from macosagent.llm.tracing import trace_with_metadata
 
 logger = logging.getLogger(__name__)
 
@@ -21,7 +22,7 @@ class BrowserAgent(Tool):
     output_type = "string"
 
     llm = create_langchain_llm_client()
-
+    @trace_with_metadata(observation_name="browser_agent", tags=["browser_agent"])
     def forward(self, instruction: str) -> str:
         logger.info(f"BrowserAgent instruction: {instruction}")
         agent = Agent(llm=self.llm, task=instruction)
