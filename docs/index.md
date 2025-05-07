@@ -1,34 +1,36 @@
-# MacOS Agent Documentation
+# MacOS Agent
+## Development Setup
 
-Welcome to the MacOS Agent documentation! This project provides a collection of agents that can be used to automate tasks on a MacOS system.
+### Pre-commit Hooks
 
-## Quick Start
+This project uses pre-commit hooks to ensure code quality before each commit. The setup includes:
 
-```bash
-pip install macos-agent
-```
+1. **ruff**: A fast Python linter and formatter
+2. **pylint**: A comprehensive Python code analyzer
 
-## Features
+#### Configuration Files
 
-- Browser automation
-- Calendar integration
-- System automation
-- And more...
+- `.pre-commit-config.yaml`: Defines the pre-commit hooks and their configurations
+- `ruff.toml`: Configures ruff linting rules
+- `pylintrc`: Configures pylint analysis rules
 
-## Installation
+#### Setup Process
 
-```bash
-pip install macos-agent
-```
+1. Install pre-commit using uv:
+   ```bash
+   uv pip install pre-commit
+   ```
 
-## Usage
+2. Install the git hooks:
+   ```bash
+   pre-commit install
+   ```
 
-Basic usage examples will be provided here.
+3. Run checks manually on all files:
+   ```bash
+   pre-commit run --all-files
+   ```
+4. When you do git commit, the pre-commit hooks will run automatically. If you want to skip the hooks, you can use `git commit --no-verify`.
+#### Customization
 
-## Contributing
-
-We welcome contributions! Please see our contributing guidelines for more information.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+- ruff is configured to auto
