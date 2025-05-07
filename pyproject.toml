@@ -5,31 +5,87 @@ description = "MacOS Agent is a collection of agents that can be used to automat
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "browser-agent",
-    "calendar-agent",
-    "excel-agent",
-    "finder-agent",
+    "browser-use>=0.1.40",
+    "icalendar>=6.1.3",
+    "langchain>=0.3.25",
     "langfuse>=2.60.3",
     "openai>=1.66.5",
-    "player-agent",
-    "powerpoint-agent",
-    "preview-agent",
+    "pre-commit>=4.2.0",
+    "pyautogui>=0.9.54",
+    "pynput>=1.8.1",
+    "pyobjc>=11.0",
     "pytest>=8.3.5",
     "smolagents>=1.13.0",
-    "textedit-agent",
+    "transformers>=4.51.3",
     "weave>=0.51.42",
-    "wechat-agent",
-    "word-agent",
 ]
 
-[tool.uv.sources]
-word-agent = { git = "https://github.com/Computer-use-agents/Word-Agent.git" }
-wechat-agent = { git = "https://github.com/Computer-use-agents/Wechat-Agent.git" }
-calendar-agent = { git = "https://github.com/Computer-use-agents/Calendar-Agent.git" }
-player-agent = { git = "https://github.com/Computer-use-agents/QuickTime-Agent.git" }
-powerpoint-agent = { git = "https://github.com/Computer-use-agents/PowerPoint-Agent.git" }
-excel-agent = { git = "https://github.com/Computer-use-agents/Excel-Agent.git" }
-preview-agent = { git = "https://github.com/Computer-use-agents/Preview-Agent.git" }
-browser-agent = { git = "https://github.com/Computer-use-agents/Browser-Agent.git" }
-finder-agent = { git = "https://github.com/Computer-use-agents/Finder-Agent.git" }
-textedit-agent = { git = "https://github.com/Computer-use-agents/TextEdit-Agent.git" }
+[project.scripts]
+macosagent = "macosagent.__main__:main"
+
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.dynamic]
+version = { attr = "macosagent.__version__" }
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "E",
+    "W",
+    "I",
+    "N",
+    "UP",
+    "B",
+    "SIM",
+    "PL",
+    "RUF",
+    # "PTH",
+]
+ignore = [
+    "PLR0912",
+    "PLR0913",
+    "PLR0914",
+    "PLR0915",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    "N818",
+]
+per-file-ignores = { "__init__.py" = ["F401"] }
+
+[tool.pylint]
+max-line-length = 88
+disable = [
+    "C0114",
+    "C0115",
+    "C0116",
+    "C0302",
+    "R0801",
+    "R0902",
+    "R0903",
+    "R0912",
+    "R0913",
+    "R0914",
+    "R0915",
+    "R0916",
+    "R0917",
+    "W0511",
+    "W0613",
+    "W1514",
+    "W1203",
+    "E0401",
+    "C0301"
+]
+variable-rgx = "[a-z_][a-z0-9_]*$"
+generated-members = "cv2.*"
