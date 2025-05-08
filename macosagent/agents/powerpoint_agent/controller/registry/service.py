@@ -15,7 +15,7 @@ from browser_use.telemetry.views import (
 from browser_use.utils import time_execution_async, time_execution_sync
 from pydantic import BaseModel, Field, create_model
 
-from powerpoint_agent.powerpoint.context import PowerPointContext
+from macosagent.agents.powerpoint_agent.powerpoint.context import PowerPointContext
 
 Context = TypeVar('Context')
 

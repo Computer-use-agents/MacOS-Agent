@@ -22,11 +22,11 @@ from langchain_core.messages import (
 from PIL import Image
 from smolagents import AgentError, MessageRole, ToolCallingAgent
 
-from powerpoint_agent.agent.llm import LLMEngine
-from powerpoint_agent.agent.prompt import SYSTEM_PROMPT
-from powerpoint_agent.agent.views import ActionModel, ActionResult, AgentOutput
-from powerpoint_agent.powerpoint import PowerPoint, PowerPointConfig
-from powerpoint_agent.powerpoint.context import PowerPointContext
+from macosagent.agents.powerpoint_agent.agent.llm import LLMEngine
+from macosagent.agents.powerpoint_agent.agent.prompt import SYSTEM_PROMPT
+from macosagent.agents.powerpoint_agent.agent.views import ActionModel, ActionResult, AgentOutput
+from macosagent.agents.powerpoint_agent.powerpoint import PowerPoint, PowerPointConfig
+from macosagent.agents.powerpoint_agent.powerpoint.context import PowerPointContext
 
 logger = logging.getLogger(__name__)
 
@@ -64,7 +64,7 @@ class ReactJsonAgent(ToolCallingAgent):
 		self.llm = llm
 		# Initialize the controller
 		if controller is None:
-			from powerpoint_agent.controller import Controller
+			from macosagent.agents.powerpoint_agent.controller import Controller
 			self.controller = Controller()
 		else:
 			self.controller = controller

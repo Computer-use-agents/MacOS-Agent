@@ -14,7 +14,7 @@ from Quartz import (
 	kCGWindowListOptionOnScreenOnly,
 )
 
-from powerpoint_agent.powerpoint.utils import parse_axvalue_bounds
+from macosagent.agents.powerpoint_agent.powerpoint.utils import parse_axvalue_bounds
 
 # from powerpoint_agent.controller.action_utils import create_presentation_function
 # from utils import parse_axvalue_bounds

@@ -16,11 +16,11 @@ from langchain_openai import AzureChatOpenAI
 from pydantic import BaseModel
 
 # ClickElementAction, InputTextAction, DoneAction, OpenPowerPointAction, SaveFileAction
-from powerpoint_agent.agent.views import ActionModel, ActionResult
-from powerpoint_agent.controller.action_utils import *
-from powerpoint_agent.controller.registry.service import Registry
-from powerpoint_agent.controller.views import *
-from powerpoint_agent.powerpoint.context import PowerPointContext
+from macosagent.agents.powerpoint_agent.agent.views import ActionModel, ActionResult
+from macosagent.agents.powerpoint_agent.controller.action_utils import *
+from macosagent.agents.powerpoint_agent.controller.registry.service import Registry
+from macosagent.agents.powerpoint_agent.controller.views import *
+from macosagent.agents.powerpoint_agent.powerpoint.context import PowerPointContext
 
 logger = logging.getLogger(__name__)
 Context = TypeVar('Context')

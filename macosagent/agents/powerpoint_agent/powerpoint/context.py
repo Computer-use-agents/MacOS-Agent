@@ -9,8 +9,8 @@ from typing import Optional
 
 from PIL import Image, ImageDraw
 
-from powerpoint_agent.powerpoint.powerpoint import PowerPoint
-from powerpoint_agent.powerpoint.utils import BoxDrawer, parse_axvalue_bounds
+from macosagent.agents.powerpoint_agent.powerpoint.powerpoint import PowerPoint
+from macosagent.agents.powerpoint_agent.powerpoint.utils import BoxDrawer, parse_axvalue_bounds
 
 logger = logging.getLogger(__name__)
 

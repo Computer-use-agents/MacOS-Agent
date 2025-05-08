@@ -23,6 +23,7 @@ dependencies = [
     "pyobjc>=11.0",
     "pypdf2>=3.0.1",
     "pytest>=8.3.5",
+    "python-pptx>=1.0.2",
     "smolagents>=1.13.0",
     "transformers>=4.51.3",
     "weave>=0.51.42",
