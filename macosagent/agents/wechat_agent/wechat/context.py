@@ -2,26 +2,15 @@
 Wechat automation and accessibility processing.
 """
 
-import asyncio
-import base64
-import gc
-import json
 import logging
-import os
-import re
-import time
 import uuid
-from PIL import Image, ImageDraw
-from dataclasses import dataclass, field
-from typing import Optional
+from dataclasses import dataclass
 
-import argparse
-import sys
-import traceback
-import random
+from PIL import Image, ImageDraw
 
 from macosagent.agents.wechat_agent.wechat.wechat import Wechat
 from macosagent.agents.wechat_agent.wechat.utils import BoxDrawer, parse_axvalue_bounds, parse_rect_bounds
+
 logger = logging.getLogger(__name__)
 
 
@@ -42,7 +31,7 @@ class WechatContext:
     def __init__(
         self,
         wechat: 'Wechat',
-        state: Optional[WechatContextState] = None,
+        state: WechatContextState | None = None,
     ):
         self.context_id = str(uuid.uuid4())
         logger.debug(f'Initializing new Wechat context with id: {self.context_id}')

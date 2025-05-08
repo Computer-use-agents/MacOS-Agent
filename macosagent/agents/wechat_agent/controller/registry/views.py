@@ -1,4 +1,4 @@
-from typing import Callable, Dict, Type
+from collections.abc import Callable
 
 from pydantic import BaseModel, ConfigDict
 
@@ -9,7 +9,7 @@ class RegisteredAction(BaseModel):
 	name: str
 	description: str
 	function: Callable
-	param_model: Type[BaseModel]
+	param_model: type[BaseModel]
 
 	model_config = ConfigDict(arbitrary_types_allowed=True)
 
@@ -63,7 +63,7 @@ class ActionModel(BaseModel):
 class ActionRegistry(BaseModel):
 	"""Model representing the action registry"""
 
-	actions: Dict[str, RegisteredAction] = {}
+	actions: dict[str, RegisteredAction] = {}
 
 	def get_prompt_description(self) -> str:
 		"""Get a description of all actions for the prompt"""

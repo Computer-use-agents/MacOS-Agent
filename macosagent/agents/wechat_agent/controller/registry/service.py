@@ -1,6 +1,7 @@
 import asyncio
+from collections.abc import Callable
 from inspect import iscoroutinefunction, signature
-from typing import Any, Callable, Dict, Generic, Optional, Type, TypeVar
+from typing import Any, Generic, Optional, TypeVar
 
 from langchain_core.language_models.chat_models import BaseChatModel
 from pydantic import BaseModel, Field, create_model
@@ -30,7 +31,7 @@ class Registry(Generic[Context]):
 		self.exclude_actions = exclude_actions if exclude_actions is not None else []
 
 	@time_execution_sync('--create_param_model')
-	def _create_param_model(self, function: Callable) -> Type[BaseModel]:
+	def _create_param_model(self, function: Callable) -> type[BaseModel]:
 		"""Creates a Pydantic model from function signature"""
 		sig = signature(function)
 		params = {
@@ -48,7 +49,7 @@ class Registry(Generic[Context]):
 	def action(
 		self,
 		description: str,
-		param_model: Optional[Type[BaseModel]] = None,
+		param_model: type[BaseModel] | None = None,
 	):
 		"""Decorator for registering actions"""
 
@@ -120,7 +121,7 @@ class Registry(Generic[Context]):
 		except Exception as e:
 			raise RuntimeError(f'Error executing action {action_name}: {str(e)}') from e
 
-	def _replace_sensitive_data(self, params: BaseModel, sensitive_data: Dict[str, str]) -> BaseModel:
+	def _replace_sensitive_data(self, params: BaseModel, sensitive_data: dict[str, str]) -> BaseModel:
 		"""Replaces the sensitive data in the params"""
 		# if there are any str with <secret>placeholder</secret> in the params, replace them with the actual value from sensitive_data
 
@@ -146,7 +147,7 @@ class Registry(Generic[Context]):
 		return params
 
 	@time_execution_sync('--create_action_model')
-	def create_action_model(self, include_actions: Optional[list[str]] = None) -> Type[ActionModel]:
+	def create_action_model(self, include_actions: list[str] | None = None) -> type[ActionModel]:
 		"""Creates a Pydantic model from registered actions"""
 		fields = {
 			name: (

@@ -1,16 +1,14 @@
 import logging
+import os
+import subprocess
+import tempfile
+import time
 from dataclasses import dataclass, field
+
 import ApplicationServices
 from Quartz import CGWindowListCopyWindowInfo, kCGWindowListOptionOnScreenOnly, kCGNullWindowID
 import Quartz
-import numpy as np
 from PIL import Image
-import time
-import subprocess
-import tempfile
-import json
-import ctypes
-import os
 
 from macosagent.agents.wechat_agent.wechat.utils import parse_axvalue_bounds
 

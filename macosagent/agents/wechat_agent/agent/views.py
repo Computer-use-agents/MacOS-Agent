@@ -5,7 +5,7 @@ import traceback
 import uuid
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Literal, Optional, Type
+from typing import Any, Literal
 
 from langchain_core.language_models.chat_models import BaseChatModel
 from openai import RateLimitError
@@ -36,17 +36,17 @@ class AgentSettings(BaseModel):
 
 	use_vision: bool = True
 	use_vision_for_planner: bool = False
-	save_conversation_path: Optional[str] = None
-	save_conversation_path_encoding: Optional[str] = 'utf-8'
+	save_conversation_path: str | None = None
+	save_conversation_path_encoding: str | None = 'utf-8'
 	max_failures: int = 3
 	retry_delay: int = 10
 	max_input_tokens: int = 128000
 	validate_output: bool = False
-	message_context: Optional[str] = None
+	message_context: str | None = None
 	generate_gif: bool | str = False
-	available_file_paths: Optional[list[str]] = None
-	override_system_message: Optional[str] = None
-	extend_system_message: Optional[str] = None
+	available_file_paths: list[str] | None = None
+	override_system_message: str | None = None
+	extend_system_message: str | None = None
 	include_attributes: list[str] = [
 		'title',
 		'type',
@@ -61,9 +61,9 @@ class AgentSettings(BaseModel):
 	]
 	max_actions_per_step: int = 10
 
-	tool_calling_method: Optional[ToolCallingMethod] = 'auto'
-	page_extraction_llm: Optional[BaseChatModel] = None
-	planner_llm: Optional[BaseChatModel] = None
+	tool_calling_method: ToolCallingMethod | None = 'auto'
+	page_extraction_llm: BaseChatModel | None = None
+	planner_llm: BaseChatModel | None = None
 	planner_interval: int = 1  # Run planner every N steps
 
 
@@ -73,9 +73,9 @@ class AgentState(BaseModel):
 	agent_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
 	n_steps: int = 1
 	consecutive_failures: int = 0
-	last_result: Optional[List['ActionResult']] = None
+	last_result: list[ActionResult] | None = None
 	history: AgentHistoryList = Field(default_factory=lambda: AgentHistoryList(history=[]))
-	last_plan: Optional[str] = None
+	last_plan: str | None = None
 	paused: bool = False
 	stopped: bool = False
 
@@ -98,10 +98,10 @@ class AgentStepInfo:
 class ActionResult(BaseModel):
 	"""Result of executing an action"""
 
-	is_done: Optional[bool] = False
-	success: Optional[bool] = None
-	extracted_content: Optional[str] = None
-	error: Optional[str] = None
+	is_done: bool | None = False
+	success: bool | None = None
+	extracted_content: str | None = None
+	error: str | None = None
 	include_in_memory: bool = False  # whether to include in past messages as context or not
 
 
@@ -143,7 +143,7 @@ class AgentOutput(BaseModel):
 	)
 
 	@staticmethod
-	def type_with_custom_actions(custom_actions: Type[ActionModel]) -> Type['AgentOutput']:
+	def type_with_custom_actions(custom_actions: type[ActionModel]) -> type['AgentOutput']:
 		"""Extend actions with custom actions"""
 		model_ = create_model(
 			'AgentOutput',
@@ -164,7 +164,7 @@ class AgentHistory(BaseModel):
 	model_output: AgentOutput | None
 	result: list[ActionResult]
 	state: BrowserStateHistory
-	metadata: Optional[StepMetadata] = None
+	metadata: StepMetadata | None = None
 
 	model_config = ConfigDict(arbitrary_types_allowed=True, protected_namespaces=())
 
@@ -180,7 +180,7 @@ class AgentHistory(BaseModel):
 				elements.append(None)
 		return elements
 
-	def model_dump(self, **kwargs) -> Dict[str, Any]:
+	def model_dump(self, **kwargs) -> dict[str, Any]:
 		"""Custom serialization handling circular references"""
 
 		# Handle action serialization
@@ -247,14 +247,14 @@ class AgentHistoryList(BaseModel):
 		except Exception as e:
 			raise e
 
-	def model_dump(self, **kwargs) -> Dict[str, Any]:
+	def model_dump(self, **kwargs) -> dict[str, Any]:
 		"""Custom serialization that properly uses AgentHistory's model_dump"""
 		return {
 			'history': [h.model_dump(**kwargs) for h in self.history],
 		}
 
 	@classmethod
-	def load_from_file(cls, filepath: str | Path, output_model: Type[AgentOutput]) -> 'AgentHistoryList':
+	def load_from_file(cls, filepath: str | Path, output_model: type[AgentOutput]) -> 'AgentHistoryList':
 		"""Load history from JSON file"""
 		with open(filepath, 'r', encoding='utf-8') as f:
 			data = json.load(f)

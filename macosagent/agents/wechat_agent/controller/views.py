@@ -1,5 +1,3 @@
-from typing import Optional
-
 from pydantic import BaseModel, model_validator
 
 
@@ -19,7 +17,7 @@ class InputAction(BaseModel):
 
 class ScrollAction(BaseModel):
 	index: int
-	amount: Optional[int] = None
+	amount: int | None = None
 
 
 class PasteAction(BaseModel):

@@ -1,28 +1,19 @@
-import asyncio
-import json
 import enum
+import json
 import logging
-from typing import Dict, Generic, Optional, Type, TypeVar
-import subprocess
-from langchain_core.language_models.chat_models import BaseChatModel
-from langchain_core.prompts import PromptTemplate
-import tempfile
-from datetime import datetime, timedelta
-# from lmnr.sdk.laminar import Laminar
+import re
+import time
+from typing import Generic, TypeVar
+
+import pyautogui
+import pyperclip
 from pydantic import BaseModel
 
 from macosagent.agents.wechat_agent.controller.registry.service import Registry
 from macosagent.agents.wechat_agent.wechat.context import WechatContext
 from macosagent.agents.wechat_agent.controller.views import ClickElementAction, InputAction, DoneAction, ScrollAction, PasteAction, CopyAction, RightClickElementAction, SendAction
 from macosagent.agents.wechat_agent.agent.views import ActionResult, ActionModel
-import pyautogui
-import pyperclip
-import re
-import time
-
 #from macosagent.agents.wechat_agent.agent.llm import create_gpt_4o_tool  
-from omegaconf import DictConfig, OmegaConf
-import hydra
 
 logger = logging.getLogger(__name__)
 
@@ -33,7 +24,7 @@ class Controller(Generic[Context]):
     def __init__(
         self,
         exclude_actions: list[str] = [],
-        output_model: Optional[Type[BaseModel]] = None,
+        output_model: type[BaseModel] | None = None,
     ):
         self.registry = Registry[Context](exclude_actions)
 

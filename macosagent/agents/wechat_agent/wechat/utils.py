@@ -1,6 +1,7 @@
 import re
 import random
-from PIL import Image, ImageDraw, ImageFont
+
+from PIL import ImageFont
 
 
 def parse_axvalue_bounds(bounds_str, offset=(0, 0)):
