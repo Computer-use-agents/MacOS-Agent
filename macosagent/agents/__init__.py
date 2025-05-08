@@ -3,6 +3,8 @@ from macosagent.agents.calendar_agent import CalendarAgent
 from macosagent.agents.player_agent import PlayerAgent
 from macosagent.agents.preview_agent import PreviewAgent
 from macosagent.agents.word_agent import WordAgent
+from macosagent.agents.excel_agent import ExcelAgent
+
 
 agent_box = {
     "browser_agent": BrowserAgent(),
@@ -10,6 +12,7 @@ agent_box = {
     "preview_agent": PreviewAgent(),
     "player_agent": PlayerAgent(),
     "word_agent": WordAgent(),
+    "excel_agent": ExcelAgent(),
 }
 
 __all__ = ["agent_box"]
