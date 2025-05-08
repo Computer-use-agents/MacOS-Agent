@@ -17,7 +17,7 @@ from browser_use.telemetry.views import (
 	RegisteredFunction,
 )
 from browser_use.utils import time_execution_async, time_execution_sync
-from word_agent.word.context import WordContext
+from macosagent.agents.word_agent.word.context import WordContext
 Context = TypeVar('Context')
 
 

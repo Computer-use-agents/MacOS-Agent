@@ -1,1 +1,1 @@
-from word_agent.controller.service import Controller
+from macosagent.agents.word_agent.controller.service import Controller

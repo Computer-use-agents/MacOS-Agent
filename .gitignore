@@ -70,3 +70,6 @@ cua
 ruff.toml
 pylintrc
 .ruff_cache
+
+
+test.py
