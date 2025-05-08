@@ -1,0 +1,1 @@
+from word_agent.controller.service import Controller
