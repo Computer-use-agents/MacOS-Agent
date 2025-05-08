@@ -354,7 +354,7 @@ def _write_messages_to_file(f: Any, messages: list[BaseMessage]) -> None:
 
 
 class WechatAgent(Tool):
-    name = "wechat"
+    name = "wechat_agent"
     description = """Wechat-Agent is an intelligent agent capable of controlling WeChat to perform the following tasks:
 - Search for contacts
 - Edit and send messages or emojis
