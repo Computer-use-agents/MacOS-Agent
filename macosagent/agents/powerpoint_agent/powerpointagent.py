@@ -1,4 +1,3 @@
-# from transformers import AutoProcessor, Tool
 import asyncio
 import base64
 import json
@@ -8,7 +7,7 @@ import time
 from datetime import datetime
 from io import BytesIO
 from typing import Any, Dict, Optional
-
+from langchain_core.messages import BaseMessage
 
 from langchain_openai import AzureChatOpenAI
 from smolagents import Tool

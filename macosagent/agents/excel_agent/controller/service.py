@@ -26,6 +26,8 @@ import pyautogui
 import re
 import shutil
 
+from macosagent.llm.llm import create_smol_llm_client
+
 logger = logging.getLogger(__name__)
 Context = TypeVar('Context')
 class Controller(Generic[Context]):
@@ -162,15 +164,15 @@ class Controller(Generic[Context]):
 			param_model=ComputerUseAction,
 		)
 		async def computer_use(params: ComputerUseAction,context:ExcelContext):
-			client = AzureChatOpenAI(
-					model = os.environ.get("AZURE_OPENAI_MODEL"),
-					temperature=1.0,
-					api_key=os.environ.get("AZURE_OPENAI_API_KEY"),
-					azure_endpoint=os.environ.get("AZURE_OPENAI_ENDPOINT"),
-					api_version=os.environ.get("OPENAI_API_VERSION"),
-					max_completion_tokens=256,
-				)
-			
+			# client = AzureChatOpenAI(
+			# 		model = os.environ.get("AZURE_OPENAI_MODEL"),
+			# 		temperature=1.0,
+			# 		api_key=os.environ.get("AZURE_OPENAI_API_KEY"),
+			# 		azure_endpoint=os.environ.get("AZURE_OPENAI_ENDPOINT"),
+			# 		api_version=os.environ.get("OPENAI_API_VERSION"),
+			# 		max_completion_tokens=256,
+			# 	)
+			client = create_smol_llm_client()
 			SYSTEM_PROMPT = """You are an AI agent designed to automate GUI tasks. Your goal is to accomplish the task.
 				You will be given a task instruction, interactive elements, the clean screenshot, and screenshot with highlighted elements. You are provided with screenshots of the app, not the entire desktop. The current offset of the app is x:""" +  f""" {context.state.offset[0]}, y: {context.state.offset[1]}.""" + """ Please take these offsets into account when generating positions.
 				Please output the next action and wait for the next observation. 
