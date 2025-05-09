@@ -19,9 +19,11 @@ def create_agent() -> CodeAgent:
     # Initialize the agent with the model and tools
     llm_engine = create_smol_llm_client()
     app_agent_box = []
-    for k, v in agent_box.items():
+    for _, v in agent_box.items():
         app_agent_box.append(v)
-    with open(str(files("macosagent").joinpath("prompt.yaml")), encoding="utf-8") as file:
+    with open(
+        str(files("macosagent").joinpath("prompt.yaml")),
+        encoding="utf-8") as file:
         prompt: dict[str, Any] = yaml.safe_load(file)
 
     macos_agent = CodeAgent(
