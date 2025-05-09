@@ -1,0 +1,1 @@
+from macosagent.agents.finder_agent.finder_agent.finder import FinderAgent

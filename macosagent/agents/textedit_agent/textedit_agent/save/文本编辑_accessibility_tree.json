@@ -1,0 +1,312 @@
+[
+  {
+    "level": 0,
+    "children": [
+      {
+        "level": 1,
+        "children": [
+          {
+            "level": 2,
+            "children": [],
+            "attributes": {
+              "AXFocused": "True",
+              "AXChildrenInNavigationOrder": "(\n)",
+              "AXSelectedText": "",
+              "AXFrame": "<AXValue 0x112f16750> {value = x:146.000000 y:105.000000 w:646.000000 h:390.000000 type = kAXValueCGRectType}",
+              "AXInsertionPointLineNumber": "9",
+              "AXPosition": "<AXValue 0x10e416e50> {value = x:146.000000 y:105.000000 type = kAXValueCGPointType}",
+              "AXNumberOfCharacters": "806",
+              "AXSharedTextUIElements": "(\n    \"<AXUIElement 0x10980a200> {pid=95029}\"\n)",
+              "AXSelectedTextRange": "<AXValue 0x112f16720> {value = location:806 length:0 type = kAXValueCFRangeType}",
+              "AXChildren": "(\n)",
+              "AXParent": "<AXUIElement 0x109809260> {pid=95029}",
+              "AXTopLevelUIElement": "<AXUIElement 0x112f16750> {pid=95029}",
+              "AXSharedCharacterRange": "<AXValue 0x109809260> {value = location:0 length:806 type = kAXValueCFRangeType}",
+              "AXSelectedTextRanges": "(\n    \"<AXValue 0x112f14730> {value = location:806 length:0 type = kAXValueCFRangeType}\"\n)",
+              "AXVisibleCharacterRange": "<AXValue 0x109809260> {value = location:0 length:806 type = kAXValueCFRangeType}",
+              "AXValue": "On a sunny Saturday afternoon, the local high school gym was bustling with excitement. Crowds gathered to watch the much-anticipated basketball match between the Red Hawks and the Blue Dolphins. The game started off with sheer energy as both teams dashed across the court. John, the star player of the Red Hawks, took control early with his swift movements and impressive handle. Cheers erupted from the stands when he scored a three-pointer, pushing his team ahead. However, the Blue Dolphins fought back fiercely with their captain, Mike, leading the charge. The atmosphere in the gym was electric as the score swung back and forth. In the final seconds, the Red Hawks managed to clinch the victory with a score of 68-66. It was a game to remember, leaving fans eagerly anticipating next year’s showdown.",
+              "AXRoleDescription": "文本输入区",
+              "AXSize": "<AXValue 0x109809260> {value = w:646.000000 h:390.000000 type = kAXValueCGSizeType}",
+              "AXIdentifier": "First Text View",
+              "AXWindow": "<AXUIElement 0x109809260> {pid=95029}",
+              "AXTextInputMarkedRange": "<AXValue 0x112f14790> {value = location:806 length:0 type = kAXValueCFRangeType}"
+            },
+            "role": "AXTextArea",
+            "is_interactive": true
+          },
+          {
+            "level": 2,
+            "children": [],
+            "attributes": {
+              "AXEnabled": "False",
+              "AXOrientation": "AXHorizontalOrientation",
+              "AXFrame": "<AXValue 0x10980aad0> {value = x:146.000000 y:479.000000 w:646.000000 h:16.000000 type = kAXValueCGRectType}",
+              "AXParent": "<AXUIElement 0x112f16860> {pid=95029}",
+              "AXChildren": "(\n)",
+              "AXFocused": "False",
+              "AXSize": "<AXValue 0x10980aad0> {value = w:646.000000 h:16.000000 type = kAXValueCGSizeType}",
+              "AXTopLevelUIElement": "<AXUIElement 0x112f16860> {pid=95029}",
+              "AXChildrenInNavigationOrder": "(\n)",
+              "AXPosition": "<AXValue 0x112f16890> {value = x:146.000000 y:479.000000 type = kAXValueCGPointType}",
+              "AXWindow": "<AXUIElement 0x112f168c0> {pid=95029}",
+              "AXRoleDescription": "滚动条",
+              "AXValue": "0.18518517911434174",
+              "AXHidden": "True",
+              "AXIdentifier": "_NS:24"
+            },
+            "role": "AXScrollBar",
+            "is_interactive": false
+          },
+          {
+            "level": 2,
+            "children": [],
+            "attributes": {
+              "AXEnabled": "False",
+              "AXOrientation": "AXVerticalOrientation",
+              "AXFrame": "<AXValue 0x112f172f0> {value = x:776.000000 y:105.000000 w:16.000000 h:390.000000 type = kAXValueCGRectType}",
+              "AXParent": "<AXUIElement 0x112f17070> {pid=95029}",
+              "AXChildren": "(\n)",
+              "AXFocused": "False",
+              "AXSize": "<AXValue 0x10980aad0> {value = w:16.000000 h:390.000000 type = kAXValueCGSizeType}",
+              "AXTopLevelUIElement": "<AXUIElement 0x10980bf10> {pid=95029}",
+              "AXChildrenInNavigationOrder": "(\n)",
+              "AXPosition": "<AXValue 0x10980aad0> {value = x:776.000000 y:105.000000 type = kAXValueCGPointType}",
+              "AXWindow": "<AXUIElement 0x10980ab60> {pid=95029}",
+              "AXRoleDescription": "滚动条",
+              "AXValue": "0.615384578704834",
+              "AXHidden": "True",
+              "AXIdentifier": "_NS:27"
+            },
+            "role": "AXScrollBar",
+            "is_interactive": false
+          }
+        ],
+        "attributes": {
+          "AXHorizontalScrollBar": "<AXUIElement 0x10e416e50> {pid=95029}",
+          "AXFrame": "<AXValue 0x112f0a2e0> {value = x:146.000000 y:105.000000 w:646.000000 h:390.000000 type = kAXValueCGRectType}",
+          "AXParent": "<AXUIElement 0x112f0a320> {pid=95029}",
+          "AXChildren": "(\n    \"<AXUIElement 0x10980f050> {pid=95029}\",\n    \"<AXUIElement 0x10980b8b0> {pid=95029}\",\n    \"<AXUIElement 0x1098091d0> {pid=95029}\"\n)",
+          "AXFocused": "False",
+          "AXSize": "<AXValue 0x10980e2a0> {value = w:646.000000 h:390.000000 type = kAXValueCGSizeType}",
+          "AXTopLevelUIElement": "<AXUIElement 0x112f0a320> {pid=95029}",
+          "AXChildrenInNavigationOrder": "(\n    \"<AXUIElement 0x112f164e0> {pid=95029}\",\n    \"<AXUIElement 0x112f16560> {pid=95029}\",\n    \"<AXUIElement 0x112f165e0> {pid=95029}\"\n)",
+          "AXPosition": "<AXValue 0x10980e2a0> {value = x:146.000000 y:105.000000 type = kAXValueCGPointType}",
+          "AXWindow": "<AXUIElement 0x112f0a320> {pid=95029}",
+          "AXRoleDescription": "滚动区",
+          "AXVerticalScrollBar": "<AXUIElement 0x112f0a320> {pid=95029}",
+          "AXContents": "(\n    \"<AXUIElement 0x1098091d0> {pid=95029}\"\n)",
+          "AXIdentifier": "_NS:8"
+        },
+        "role": "AXScrollArea",
+        "is_interactive": false
+      },
+      {
+        "level": 1,
+        "children": [],
+        "attributes": {
+          "AXEnabled": "True",
+          "AXFrame": "<AXValue 0x1098093a0> {value = x:153.000000 y:83.000000 w:14.000000 h:16.000000 type = kAXValueCGRectType}",
+          "AXParent": "<AXUIElement 0x1098091d0> {pid=95029}",
+          "AXSize": "<AXValue 0x112f16050> {value = w:14.000000 h:16.000000 type = kAXValueCGSizeType}",
+          "AXFocused": "False",
+          "AXTopLevelUIElement": "<AXUIElement 0x112f16050> {pid=95029}",
+          "AXPosition": "<AXValue 0x112f16050> {value = x:153.000000 y:83.000000 type = kAXValueCGPointType}",
+          "AXWindow": "<AXUIElement 0x1098091d0> {pid=95029}",
+          "AXRoleDescription": "关闭按钮",
+          "AXSubrole": "AXCloseButton",
+          "AXEdited": "False"
+        },
+        "role": "AXButton",
+        "is_interactive": true
+      },
+      {
+        "level": 1,
+        "children": [
+          {
+            "level": 2,
+            "children": [
+              {
+                "level": 3,
+                "children": [],
+                "attributes": {
+                  "AXChildrenInNavigationOrder": "(\n)",
+                  "AXChildren": "(\n)",
+                  "AXPosition": "<AXValue 0x112ef5850> {value = x:193.000000 y:83.000000 type = kAXValueCGPointType}",
+                  "AXRoleDescription": "组",
+                  "AXSize": "<AXValue 0x112ef5850> {value = w:14.000000 h:16.000000 type = kAXValueCGSizeType}",
+                  "AXFocused": "False",
+                  "AXFrame": "<AXValue 0x112ef62c0> {value = x:193.000000 y:83.000000 w:14.000000 h:16.000000 type = kAXValueCGRectType}",
+                  "AXParent": "<AXUIElement 0x11412b2d0> {pid=95029}"
+                },
+                "role": "AXGroup",
+                "is_interactive": false
+              }
+            ],
+            "attributes": {
+              "AXChildrenInNavigationOrder": "(\n    \"<AXUIElement 0x10980b830> {pid=95292}\"\n)",
+              "AXChildren": "(\n    \"<AXUIElement 0x10980c400> {pid=95292}\"\n)",
+              "AXWindow": "<AXUIElement 0x10980c430> {pid=95029}",
+              "AXPosition": "<AXValue 0x10980ce20> {value = x:193.000000 y:83.000000 type = kAXValueCGPointType}",
+              "AXRoleDescription": "组",
+              "AXSize": "<AXValue 0x10980ce20> {value = w:14.000000 h:16.000000 type = kAXValueCGSizeType}",
+              "AXFocused": "False",
+              "AXFrame": "<AXValue 0x10980b830> {value = x:193.000000 y:83.000000 w:14.000000 h:16.000000 type = kAXValueCGRectType}",
+              "AXParent": "<AXUIElement 0x10980ce20> {pid=95029}",
+              "AXTopLevelUIElement": "<AXUIElement 0x10e4079f0> {pid=95029}"
+            },
+            "role": "AXGroup",
+            "is_interactive": false
+          }
+        ],
+        "attributes": {
+          "AXEnabled": "True",
+          "AXFrame": "<AXValue 0x10980d730> {value = x:193.000000 y:83.000000 w:14.000000 h:16.000000 type = kAXValueCGRectType}",
+          "AXParent": "<AXUIElement 0x10980a880> {pid=95029}",
+          "AXSize": "<AXValue 0x10980cd70> {value = w:14.000000 h:16.000000 type = kAXValueCGSizeType}",
+          "AXFocused": "False",
+          "AXChildren": "(\n    \"<AXUIElement 0x112f0a200> {pid=95029}\"\n)",
+          "AXTopLevelUIElement": "<AXUIElement 0x112f17380> {pid=95029}",
+          "AXHelp": "此按钮也可以执行缩放窗口的操作",
+          "AXPosition": "<AXValue 0x112f17380> {value = x:193.000000 y:83.000000 type = kAXValueCGPointType}",
+          "AXWindow": "<AXUIElement 0x112f16050> {pid=95029}",
+          "AXRoleDescription": "全屏幕按钮",
+          "AXSubrole": "AXFullScreenButton"
+        },
+        "role": "AXButton",
+        "is_interactive": true
+      },
+      {
+        "level": 1,
+        "children": [],
+        "attributes": {
+          "AXEnabled": "True",
+          "AXFrame": "<AXValue 0x112ef5d50> {value = x:173.000000 y:83.000000 w:14.000000 h:16.000000 type = kAXValueCGRectType}",
+          "AXParent": "<AXUIElement 0x11413e5e0> {pid=95029}",
+          "AXSize": "<AXValue 0x112ef5e50> {value = w:14.000000 h:16.000000 type = kAXValueCGSizeType}",
+          "AXFocused": "False",
+          "AXTopLevelUIElement": "<AXUIElement 0x112ef5e50> {pid=95029}",
+          "AXPosition": "<AXValue 0x112ef5e50> {value = x:173.000000 y:83.000000 type = kAXValueCGPointType}",
+          "AXWindow": "<AXUIElement 0x11413e5e0> {pid=95029}",
+          "AXRoleDescription": "最小化按钮",
+          "AXSubrole": "AXMinimizeButton"
+        },
+        "role": "AXButton",
+        "is_interactive": true
+      },
+      {
+        "level": 1,
+        "children": [],
+        "attributes": {
+          "AXEnabled": "False",
+          "AXFrame": "<AXValue 0x10e5db4f0> {value = x:484.000000 y:82.000000 w:52.000000 h:16.000000 type = kAXValueCGRectType}",
+          "AXDescription": "文稿操作",
+          "AXParent": "<AXUIElement 0x114121790> {pid=95029}",
+          "AXSize": "<AXValue 0x112ef5da0> {value = w:52.000000 h:16.000000 type = kAXValueCGSizeType}",
+          "AXFocused": "False",
+          "AXChildren": "(\n)",
+          "AXTopLevelUIElement": "<AXUIElement 0x114121790> {pid=95029}",
+          "AXPosition": "<AXValue 0x114121790> {value = x:484.000000 y:82.000000 type = kAXValueCGPointType}",
+          "AXWindow": "<AXUIElement 0x112ef6910> {pid=95029}",
+          "AXRoleDescription": "菜单按钮"
+        },
+        "role": "AXMenuButton",
+        "title": "已编辑",
+        "is_interactive": false
+      },
+      {
+        "level": 1,
+        "children": [],
+        "attributes": {
+          "AXEnabled": "True",
+          "AXFrame": "<AXValue 0x11413aac0> {value = x:414.000000 y:82.000000 w:16.000000 h:16.000000 type = kAXValueCGRectType}",
+          "AXParent": "<AXUIElement 0x112ef6910> {pid=95029}",
+          "AXSize": "<AXValue 0x11413ab00> {value = w:16.000000 h:16.000000 type = kAXValueCGSizeType}",
+          "AXFocused": "False",
+          "AXTopLevelUIElement": "<AXUIElement 0x11413ab00> {pid=95029}",
+          "AXPosition": "<AXValue 0x11413ab00> {value = x:414.000000 y:82.000000 type = kAXValueCGPointType}",
+          "AXWindow": "<AXUIElement 0x112ef6910> {pid=95029}",
+          "AXRoleDescription": "图像"
+        },
+        "role": "AXImage",
+        "title": "b.txt",
+        "is_interactive": false
+      },
+      {
+        "level": 1,
+        "children": [],
+        "attributes": {
+          "AXFocused": "False",
+          "AXFrame": "<AXValue 0x11413ab80> {value = x:467.000000 y:82.000000 w:16.000000 h:16.000000 type = kAXValueCGRectType}",
+          "AXChildrenInNavigationOrder": "(\n)",
+          "AXInsertionPointLineNumber": "0",
+          "AXPosition": "<AXValue 0x10e5dbb00> {value = x:467.000000 y:82.000000 type = kAXValueCGPointType}",
+          "AXNumberOfCharacters": "1",
+          "AXEnabled": "False",
+          "AXSelectedTextRange": "<AXValue 0x10e5dbb00> {value = location:0 length:0 type = kAXValueCFRangeType}",
+          "AXChildren": "(\n)",
+          "AXParent": "<AXUIElement 0x112ef5d70> {pid=95029}",
+          "AXTopLevelUIElement": "<AXUIElement 0x11413ab80> {pid=95029}",
+          "AXVisibleCharacterRange": "<AXValue 0x112ef5d70> {value = location:0 length:1 type = kAXValueCFRangeType}",
+          "AXValue": "—",
+          "AXSize": "<AXValue 0x112ef5d70> {value = w:16.000000 h:16.000000 type = kAXValueCGSizeType}",
+          "AXRoleDescription": "文本",
+          "AXWindow": "<AXUIElement 0x112ef5d70> {pid=95029}"
+        },
+        "role": "AXStaticText",
+        "is_interactive": false
+      },
+      {
+        "level": 1,
+        "children": [],
+        "attributes": {
+          "AXFocused": "False",
+          "AXFrame": "<AXValue 0x112ef43c0> {value = x:432.000000 y:82.000000 w:35.000000 h:16.000000 type = kAXValueCGRectType}",
+          "AXChildrenInNavigationOrder": "(\n)",
+          "AXInsertionPointLineNumber": "0",
+          "AXPosition": "<AXValue 0x112ef4570> {value = x:432.000000 y:82.000000 type = kAXValueCGPointType}",
+          "AXNumberOfCharacters": "5",
+          "AXEnabled": "True",
+          "AXSelectedTextRange": "<AXValue 0x112ef4570> {value = location:0 length:0 type = kAXValueCFRangeType}",
+          "AXChildren": "(\n)",
+          "AXParent": "<AXUIElement 0x11413aac0> {pid=95029}",
+          "AXTopLevelUIElement": "<AXUIElement 0x112ef43c0> {pid=95029}",
+          "AXVisibleCharacterRange": "<AXValue 0x11413aac0> {value = location:0 length:5 type = kAXValueCFRangeType}",
+          "AXValue": "b.txt",
+          "AXSize": "<AXValue 0x11413aac0> {value = w:35.000000 h:16.000000 type = kAXValueCGSizeType}",
+          "AXRoleDescription": "文本",
+          "AXWindow": "<AXUIElement 0x11413aac0> {pid=95029}"
+        },
+        "role": "AXStaticText",
+        "is_interactive": false
+      }
+    ],
+    "attributes": {
+      "AXFocused": "False",
+      "AXFullScreen": "False",
+      "AXChildrenInNavigationOrder": "(\n    \"<AXUIElement 0x112f14850> {pid=95029}\",\n    \"<AXUIElement 0x112f0a050> {pid=95029}\",\n    \"<AXUIElement 0x112f0a0d0> {pid=95029}\",\n    \"<AXUIElement 0x112f0a150> {pid=95029}\",\n    \"<AXUIElement 0x112f0a1d0> {pid=95029}\",\n    \"<AXUIElement 0x112f0a280> {pid=95029}\",\n    \"<AXUIElement 0x112f0a300> {pid=95029}\",\n    \"<AXUIElement 0x112f0a200> {pid=95029}\"\n)",
+      "AXFrame": "<AXValue 0x112f0a550> {value = x:146.000000 y:77.000000 w:646.000000 h:418.000000 type = kAXValueCGRectType}",
+      "AXPosition": "<AXValue 0x112f10320> {value = x:146.000000 y:77.000000 type = kAXValueCGPointType}",
+      "AXMinimizeButton": "<AXUIElement 0x112f10320> {pid=95029}",
+      "AXDocument": "file:///Users/jinchen/Desktop/TextEdit-Agent/save/b.txt",
+      "AXSections": "(\n        {\n        SectionDescription = \"\\U5185\\U5bb9\";\n        SectionObject = \"<AXUIElement 0x112f0a4a0> {pid=95029}\";\n        SectionUniqueID = AXContent;\n    }\n)",
+      "AXCloseButton": "<AXUIElement 0x10980e2a0> {pid=95029}",
+      "AXMain": "True",
+      "AXActivationPoint": "<AXValue 0x10980e2a0> {value = x:216.000000 y:91.000000 type = kAXValueCGPointType}",
+      "AXFullScreenButton": "<AXUIElement 0x112f10320> {pid=95029}",
+      "AXProxy": "<AXUIElement 0x10980e2a0> {pid=95029}",
+      "AXMinimized": "False",
+      "AXChildren": "(\n    \"<AXUIElement 0x10e407aa0> {pid=95029}\",\n    \"<AXUIElement 0x10e417720> {pid=95029}\",\n    \"<AXUIElement 0x10e4079d0> {pid=95029}\",\n    \"<AXUIElement 0x10e407fc0> {pid=95029}\",\n    \"<AXUIElement 0x10e408040> {pid=95029}\",\n    \"<AXUIElement 0x10e408880> {pid=95029}\",\n    \"<AXUIElement 0x10e416f00> {pid=95029}\",\n    \"<AXUIElement 0x10e408800> {pid=95029}\"\n)",
+      "AXParent": "<AXUIElement Application 0x112f10320> {pid=95029}",
+      "AXTitleUIElement": "<AXUIElement 0x10980e2a0> {pid=95029}",
+      "AXModal": "False",
+      "AXSubrole": "AXStandardWindow",
+      "AXZoomButton": "<AXUIElement 0x10e416e50> {pid=95029}",
+      "AXRoleDescription": "标准窗口",
+      "AXSize": "<AXValue 0x10e416e50> {value = w:646.000000 h:418.000000 type = kAXValueCGSizeType}",
+      "AXIdentifier": "_NS:34"
+    },
+    "role": "AXWindow",
+    "title": "b.txt",
+    "is_interactive": false
+  }
+]

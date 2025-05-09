@@ -1,0 +1,3803 @@
+[
+  {
+    "id": 1,
+    "desc": "标准窗口",
+    "role": "AXWindow",
+    "role_description": "标准窗口",
+    "subrole": "AXStandardWindow",
+    "bbox": [
+      0.0,
+      0.0,
+      1470.0,
+      920.0
+    ],
+    "bbox_screen": [
+      0.0,
+      36.0,
+      1470.0,
+      920.0
+    ]
+  },
+  {
+    "id": 2,
+    "desc": "分离组",
+    "role": "AXSplitGroup",
+    "role_description": "分离组",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      0.0,
+      1470.0,
+      920.0
+    ],
+    "bbox_screen": [
+      0.0,
+      36.0,
+      1470.0,
+      920.0
+    ]
+  },
+  {
+    "id": 3,
+    "desc": "滚动区",
+    "role": "AXScrollArea",
+    "role_description": "滚动区",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      52.0,
+      200.0,
+      868.0
+    ],
+    "bbox_screen": [
+      0.0,
+      88.0,
+      200.0,
+      868.0
+    ]
+  },
+  {
+    "id": 4,
+    "desc": "外框",
+    "role": "AXOutline",
+    "role_description": "外框",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      52.0,
+      200.0,
+      868.0
+    ],
+    "bbox_screen": [
+      0.0,
+      88.0,
+      200.0,
+      868.0
+    ]
+  },
+  {
+    "id": 5,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      52.0,
+      200.0,
+      19.0
+    ],
+    "bbox_screen": [
+      0.0,
+      88.0,
+      200.0,
+      19.0
+    ]
+  },
+  {
+    "id": 6,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      52.0,
+      180.0,
+      19.0
+    ],
+    "bbox_screen": [
+      10.0,
+      88.0,
+      180.0,
+      19.0
+    ]
+  },
+  {
+    "id": 7,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      14.0,
+      52.0,
+      184.0,
+      19.0
+    ],
+    "bbox_screen": [
+      14.0,
+      88.0,
+      184.0,
+      19.0
+    ]
+  },
+  {
+    "id": 8,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      71.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      107.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 9,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      71.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      107.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 10,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      77.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      113.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 11,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      18.0,
+      76.5,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      18.0,
+      112.5,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 12,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      99.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      135.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 13,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      99.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      135.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 14,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      105.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      141.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 15,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      17.5,
+      105.5,
+      17.0,
+      15.0
+    ],
+    "bbox_screen": [
+      17.5,
+      141.5,
+      17.0,
+      15.0
+    ]
+  },
+  {
+    "id": 16,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      127.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      163.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 17,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      127.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      163.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 18,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      133.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      169.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 19,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      16.5,
+      132.5,
+      19.0,
+      16.0
+    ],
+    "bbox_screen": [
+      16.5,
+      168.5,
+      19.0,
+      16.0
+    ]
+  },
+  {
+    "id": 20,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      155.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      191.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 21,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      155.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      191.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 22,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      161.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      197.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 23,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      17.0,
+      162.5,
+      18.0,
+      14.0
+    ],
+    "bbox_screen": [
+      17.0,
+      198.5,
+      18.0,
+      14.0
+    ]
+  },
+  {
+    "id": 24,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      183.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      219.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 25,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      183.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      219.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 26,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      189.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      225.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 27,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      18.5,
+      190.0,
+      15.0,
+      15.0
+    ],
+    "bbox_screen": [
+      18.5,
+      226.0,
+      15.0,
+      15.0
+    ]
+  },
+  {
+    "id": 28,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      224.0,
+      200.0,
+      19.0
+    ],
+    "bbox_screen": [
+      0.0,
+      260.0,
+      200.0,
+      19.0
+    ]
+  },
+  {
+    "id": 29,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      224.0,
+      180.0,
+      19.0
+    ],
+    "bbox_screen": [
+      10.0,
+      260.0,
+      180.0,
+      19.0
+    ]
+  },
+  {
+    "id": 30,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      14.0,
+      224.0,
+      184.0,
+      19.0
+    ],
+    "bbox_screen": [
+      14.0,
+      260.0,
+      184.0,
+      19.0
+    ]
+  },
+  {
+    "id": 31,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      243.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      279.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 32,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      243.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      279.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 33,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      249.0,
+      127.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      285.0,
+      127.0,
+      16.0
+    ]
+  },
+  {
+    "id": 34,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      17.0,
+      249.5,
+      18.0,
+      14.0
+    ],
+    "bbox_screen": [
+      17.0,
+      285.5,
+      18.0,
+      14.0
+    ]
+  },
+  {
+    "id": 35,
+    "desc": "进度指示条",
+    "role": "AXProgressIndicator",
+    "role_description": "进度指示条",
+    "subrole": null,
+    "bbox": [
+      165.0,
+      248.0,
+      18.0,
+      18.0
+    ],
+    "bbox_screen": [
+      165.0,
+      284.0,
+      18.0,
+      18.0
+    ]
+  },
+  {
+    "id": 36,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      271.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      307.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 37,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      271.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      307.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 38,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      277.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      313.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 39,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      19.0,
+      277.5,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      19.0,
+      313.5,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 40,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      299.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      335.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 41,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      299.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      335.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 42,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      305.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      341.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 43,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      17.0,
+      306.5,
+      18.0,
+      14.0
+    ],
+    "bbox_screen": [
+      17.0,
+      342.5,
+      18.0,
+      14.0
+    ]
+  },
+  {
+    "id": 44,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      327.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      363.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 45,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      327.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      363.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 46,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      333.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      369.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 47,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      16.0,
+      333.0,
+      20.0,
+      15.0
+    ],
+    "bbox_screen": [
+      16.0,
+      369.0,
+      20.0,
+      15.0
+    ]
+  },
+  {
+    "id": 48,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      368.0,
+      200.0,
+      19.0
+    ],
+    "bbox_screen": [
+      0.0,
+      404.0,
+      200.0,
+      19.0
+    ]
+  },
+  {
+    "id": 49,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      368.0,
+      180.0,
+      19.0
+    ],
+    "bbox_screen": [
+      10.0,
+      404.0,
+      180.0,
+      19.0
+    ]
+  },
+  {
+    "id": 50,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      14.0,
+      368.0,
+      184.0,
+      19.0
+    ],
+    "bbox_screen": [
+      14.0,
+      404.0,
+      184.0,
+      19.0
+    ]
+  },
+  {
+    "id": 51,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      387.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      423.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 52,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      387.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      423.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 53,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      393.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      429.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 54,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      18.5,
+      394.0,
+      15.0,
+      15.0
+    ],
+    "bbox_screen": [
+      18.5,
+      430.0,
+      15.0,
+      15.0
+    ]
+  },
+  {
+    "id": 55,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      428.0,
+      200.0,
+      19.0
+    ],
+    "bbox_screen": [
+      0.0,
+      464.0,
+      200.0,
+      19.0
+    ]
+  },
+  {
+    "id": 56,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      428.0,
+      180.0,
+      19.0
+    ],
+    "bbox_screen": [
+      10.0,
+      464.0,
+      180.0,
+      19.0
+    ]
+  },
+  {
+    "id": 57,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      14.0,
+      428.0,
+      184.0,
+      19.0
+    ],
+    "bbox_screen": [
+      14.0,
+      464.0,
+      184.0,
+      19.0
+    ]
+  },
+  {
+    "id": 58,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      447.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      483.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 59,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      447.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      483.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 60,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      453.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      489.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 61,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      20.0,
+      455.5,
+      12.0,
+      12.0
+    ],
+    "bbox_screen": [
+      20.0,
+      491.5,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": 62,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      475.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      511.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 63,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      475.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      511.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 64,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      481.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      517.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 65,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      20.0,
+      483.5,
+      12.0,
+      12.0
+    ],
+    "bbox_screen": [
+      20.0,
+      519.5,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": 66,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      503.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      539.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 67,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      503.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      539.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 68,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      509.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      545.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 69,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      20.0,
+      511.5,
+      12.0,
+      12.0
+    ],
+    "bbox_screen": [
+      20.0,
+      547.5,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": 70,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      531.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      567.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 71,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      531.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      567.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 72,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      537.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      573.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 73,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      20.0,
+      539.5,
+      12.0,
+      12.0
+    ],
+    "bbox_screen": [
+      20.0,
+      575.5,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": 74,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      559.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      595.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 75,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      559.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      595.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 76,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      565.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      601.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 77,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      20.0,
+      567.5,
+      12.0,
+      12.0
+    ],
+    "bbox_screen": [
+      20.0,
+      603.5,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": 78,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      587.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      623.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 79,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      587.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      623.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 80,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      593.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      629.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 81,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      20.0,
+      595.5,
+      12.0,
+      12.0
+    ],
+    "bbox_screen": [
+      20.0,
+      631.5,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": 82,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      615.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      651.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 83,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      615.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      651.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 84,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      621.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      657.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 85,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      20.0,
+      623.5,
+      12.0,
+      12.0
+    ],
+    "bbox_screen": [
+      20.0,
+      659.5,
+      12.0,
+      12.0
+    ]
+  },
+  {
+    "id": 86,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      0.0,
+      643.0,
+      200.0,
+      28.0
+    ],
+    "bbox_screen": [
+      0.0,
+      679.0,
+      200.0,
+      28.0
+    ]
+  },
+  {
+    "id": 87,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      643.0,
+      180.0,
+      28.0
+    ],
+    "bbox_screen": [
+      10.0,
+      679.0,
+      180.0,
+      28.0
+    ]
+  },
+  {
+    "id": 88,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      38.0,
+      649.0,
+      146.0,
+      16.0
+    ],
+    "bbox_screen": [
+      38.0,
+      685.0,
+      146.0,
+      16.0
+    ]
+  },
+  {
+    "id": 89,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      18.0,
+      651.5,
+      16.0,
+      12.0
+    ],
+    "bbox_screen": [
+      18.0,
+      687.5,
+      16.0,
+      12.0
+    ]
+  },
+  {
+    "id": 90,
+    "desc": "栏",
+    "role": "AXColumn",
+    "role_description": "栏",
+    "subrole": null,
+    "bbox": [
+      10.0,
+      52.0,
+      180.0,
+      868.0
+    ],
+    "bbox_screen": [
+      10.0,
+      88.0,
+      180.0,
+      868.0
+    ]
+  },
+  {
+    "id": 91,
+    "desc": "分离器",
+    "role": "AXSplitter",
+    "role_description": "分离器",
+    "subrole": null,
+    "bbox": [
+      200.0,
+      52.0,
+      1.0,
+      868.0
+    ],
+    "bbox_screen": [
+      200.0,
+      88.0,
+      1.0,
+      868.0
+    ]
+  },
+  {
+    "id": 92,
+    "desc": "分离组",
+    "role": "AXSplitGroup",
+    "role_description": "分离组",
+    "subrole": null,
+    "bbox": [
+      201.0,
+      0.0,
+      1269.0,
+      920.0
+    ],
+    "bbox_screen": [
+      201.0,
+      36.0,
+      1269.0,
+      920.0
+    ]
+  },
+  {
+    "id": 93,
+    "desc": "滚动区",
+    "role": "AXScrollArea",
+    "role_description": "滚动区",
+    "subrole": null,
+    "bbox": [
+      201.0,
+      52.0,
+      1269.0,
+      868.0
+    ],
+    "bbox_screen": [
+      201.0,
+      88.0,
+      1269.0,
+      868.0
+    ]
+  },
+  {
+    "id": 94,
+    "desc": "外框",
+    "role": "AXOutline",
+    "role_description": "外框",
+    "subrole": null,
+    "bbox": [
+      201.0,
+      52.0,
+      1269.0,
+      868.0
+    ],
+    "bbox_screen": [
+      201.0,
+      88.0,
+      1269.0,
+      868.0
+    ]
+  },
+  {
+    "id": 95,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      201.0,
+      57.0,
+      1269.0,
+      28.0
+    ],
+    "bbox_screen": [
+      201.0,
+      93.0,
+      1269.0,
+      28.0
+    ]
+  },
+  {
+    "id": 96,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      201.0,
+      57.0,
+      1269.0,
+      28.0
+    ],
+    "bbox_screen": [
+      201.0,
+      93.0,
+      1269.0,
+      28.0
+    ]
+  },
+  {
+    "id": 97,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      246.0,
+      58.0,
+      27.0,
+      14.0
+    ],
+    "bbox_screen": [
+      246.0,
+      94.0,
+      27.0,
+      14.0
+    ]
+  },
+  {
+    "id": 98,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      1062.0,
+      62.0,
+      10.0,
+      7.0
+    ],
+    "bbox_screen": [
+      1062.0,
+      98.0,
+      10.0,
+      7.0
+    ]
+  },
+  {
+    "id": 99,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1085.0,
+      58.0,
+      49.0,
+      14.0
+    ],
+    "bbox_screen": [
+      1085.0,
+      94.0,
+      49.0,
+      14.0
+    ]
+  },
+  {
+    "id": 100,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1247.0,
+      58.0,
+      27.0,
+      14.0
+    ],
+    "bbox_screen": [
+      1247.0,
+      94.0,
+      27.0,
+      14.0
+    ]
+  },
+  {
+    "id": 101,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1344.0,
+      58.0,
+      27.0,
+      14.0
+    ],
+    "bbox_screen": [
+      1344.0,
+      94.0,
+      27.0,
+      14.0
+    ]
+  },
+  {
+    "id": 102,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      201.0,
+      85.0,
+      1269.0,
+      20.0
+    ],
+    "bbox_screen": [
+      201.0,
+      121.0,
+      1269.0,
+      20.0
+    ]
+  },
+  {
+    "id": 103,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      85.0,
+      853.0,
+      20.0
+    ],
+    "bbox_screen": [
+      227.0,
+      121.0,
+      853.0,
+      20.0
+    ]
+  },
+  {
+    "id": 104,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      87.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      227.0,
+      123.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 105,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      246.0,
+      87.0,
+      176.0,
+      16.0
+    ],
+    "bbox_screen": [
+      246.0,
+      123.0,
+      176.0,
+      16.0
+    ]
+  },
+  {
+    "id": 106,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1080.0,
+      85.0,
+      162.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      121.0,
+      162.0,
+      20.0
+    ]
+  },
+  {
+    "id": 107,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1085.0,
+      87.0,
+      152.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1085.0,
+      123.0,
+      152.0,
+      16.0
+    ]
+  },
+  {
+    "id": 108,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1242.0,
+      85.0,
+      97.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      121.0,
+      97.0,
+      20.0
+    ]
+  },
+  {
+    "id": 109,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1287.0,
+      87.0,
+      48.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1287.0,
+      123.0,
+      48.0,
+      16.0
+    ]
+  },
+  {
+    "id": 110,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1339.0,
+      85.0,
+      115.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      121.0,
+      115.0,
+      20.0
+    ]
+  },
+  {
+    "id": 111,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1344.0,
+      87.0,
+      39.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1344.0,
+      123.0,
+      39.0,
+      16.0
+    ]
+  },
+  {
+    "id": 112,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      201.0,
+      105.0,
+      1269.0,
+      20.0
+    ],
+    "bbox_screen": [
+      201.0,
+      141.0,
+      1269.0,
+      20.0
+    ]
+  },
+  {
+    "id": 113,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      105.0,
+      853.0,
+      20.0
+    ],
+    "bbox_screen": [
+      227.0,
+      141.0,
+      853.0,
+      20.0
+    ]
+  },
+  {
+    "id": 114,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      107.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      227.0,
+      143.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 115,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      246.0,
+      107.0,
+      113.0,
+      16.0
+    ],
+    "bbox_screen": [
+      246.0,
+      143.0,
+      113.0,
+      16.0
+    ]
+  },
+  {
+    "id": 116,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1080.0,
+      105.0,
+      162.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      141.0,
+      162.0,
+      20.0
+    ]
+  },
+  {
+    "id": 117,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1085.0,
+      107.0,
+      152.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1085.0,
+      143.0,
+      152.0,
+      16.0
+    ]
+  },
+  {
+    "id": 118,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1242.0,
+      105.0,
+      97.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      141.0,
+      97.0,
+      20.0
+    ]
+  },
+  {
+    "id": 119,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1287.0,
+      107.0,
+      48.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1287.0,
+      143.0,
+      48.0,
+      16.0
+    ]
+  },
+  {
+    "id": 120,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1339.0,
+      105.0,
+      115.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      141.0,
+      115.0,
+      20.0
+    ]
+  },
+  {
+    "id": 121,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1344.0,
+      107.0,
+      64.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1344.0,
+      143.0,
+      64.0,
+      16.0
+    ]
+  },
+  {
+    "id": 122,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      201.0,
+      125.0,
+      1269.0,
+      20.0
+    ],
+    "bbox_screen": [
+      201.0,
+      161.0,
+      1269.0,
+      20.0
+    ]
+  },
+  {
+    "id": 123,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      125.0,
+      853.0,
+      20.0
+    ],
+    "bbox_screen": [
+      227.0,
+      161.0,
+      853.0,
+      20.0
+    ]
+  },
+  {
+    "id": 124,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      127.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      227.0,
+      163.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 125,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      246.0,
+      127.0,
+      139.0,
+      16.0
+    ],
+    "bbox_screen": [
+      246.0,
+      163.0,
+      139.0,
+      16.0
+    ]
+  },
+  {
+    "id": 126,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1080.0,
+      125.0,
+      162.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      161.0,
+      162.0,
+      20.0
+    ]
+  },
+  {
+    "id": 127,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1085.0,
+      127.0,
+      152.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1085.0,
+      163.0,
+      152.0,
+      16.0
+    ]
+  },
+  {
+    "id": 128,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1242.0,
+      125.0,
+      97.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      161.0,
+      97.0,
+      20.0
+    ]
+  },
+  {
+    "id": 129,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1295.0,
+      127.0,
+      40.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1295.0,
+      163.0,
+      40.0,
+      16.0
+    ]
+  },
+  {
+    "id": 130,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1339.0,
+      125.0,
+      115.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      161.0,
+      115.0,
+      20.0
+    ]
+  },
+  {
+    "id": 131,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1344.0,
+      127.0,
+      39.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1344.0,
+      163.0,
+      39.0,
+      16.0
+    ]
+  },
+  {
+    "id": 132,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      201.0,
+      145.0,
+      1269.0,
+      20.0
+    ],
+    "bbox_screen": [
+      201.0,
+      181.0,
+      1269.0,
+      20.0
+    ]
+  },
+  {
+    "id": 133,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      145.0,
+      853.0,
+      20.0
+    ],
+    "bbox_screen": [
+      227.0,
+      181.0,
+      853.0,
+      20.0
+    ]
+  },
+  {
+    "id": 134,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      147.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      227.0,
+      183.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 135,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      246.0,
+      147.0,
+      137.0,
+      16.0
+    ],
+    "bbox_screen": [
+      246.0,
+      183.0,
+      137.0,
+      16.0
+    ]
+  },
+  {
+    "id": 136,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1080.0,
+      145.0,
+      162.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      181.0,
+      162.0,
+      20.0
+    ]
+  },
+  {
+    "id": 137,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1085.0,
+      147.0,
+      152.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1085.0,
+      183.0,
+      152.0,
+      16.0
+    ]
+  },
+  {
+    "id": 138,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1242.0,
+      145.0,
+      97.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      181.0,
+      97.0,
+      20.0
+    ]
+  },
+  {
+    "id": 139,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1287.0,
+      147.0,
+      48.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1287.0,
+      183.0,
+      48.0,
+      16.0
+    ]
+  },
+  {
+    "id": 140,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1339.0,
+      145.0,
+      115.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      181.0,
+      115.0,
+      20.0
+    ]
+  },
+  {
+    "id": 141,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1344.0,
+      147.0,
+      64.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1344.0,
+      183.0,
+      64.0,
+      16.0
+    ]
+  },
+  {
+    "id": 142,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      201.0,
+      165.0,
+      1269.0,
+      20.0
+    ],
+    "bbox_screen": [
+      201.0,
+      201.0,
+      1269.0,
+      20.0
+    ]
+  },
+  {
+    "id": 143,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      165.0,
+      853.0,
+      20.0
+    ],
+    "bbox_screen": [
+      227.0,
+      201.0,
+      853.0,
+      20.0
+    ]
+  },
+  {
+    "id": 144,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      167.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      227.0,
+      203.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 145,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      246.0,
+      167.0,
+      35.0,
+      16.0
+    ],
+    "bbox_screen": [
+      246.0,
+      203.0,
+      35.0,
+      16.0
+    ]
+  },
+  {
+    "id": 146,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1080.0,
+      165.0,
+      162.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      201.0,
+      162.0,
+      20.0
+    ]
+  },
+  {
+    "id": 147,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1085.0,
+      167.0,
+      152.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1085.0,
+      203.0,
+      152.0,
+      16.0
+    ]
+  },
+  {
+    "id": 148,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1242.0,
+      165.0,
+      97.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      201.0,
+      97.0,
+      20.0
+    ]
+  },
+  {
+    "id": 149,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1277.0,
+      167.0,
+      57.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1277.0,
+      203.0,
+      57.0,
+      16.0
+    ]
+  },
+  {
+    "id": 150,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1339.0,
+      165.0,
+      115.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      201.0,
+      115.0,
+      20.0
+    ]
+  },
+  {
+    "id": 151,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1344.0,
+      167.0,
+      75.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1344.0,
+      203.0,
+      75.0,
+      16.0
+    ]
+  },
+  {
+    "id": 152,
+    "desc": "外框行",
+    "role": "AXRow",
+    "role_description": "外框行",
+    "subrole": "AXOutlineRow",
+    "bbox": [
+      201.0,
+      185.0,
+      1269.0,
+      20.0
+    ],
+    "bbox_screen": [
+      201.0,
+      221.0,
+      1269.0,
+      20.0
+    ]
+  },
+  {
+    "id": 153,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      185.0,
+      867.0,
+      20.0
+    ],
+    "bbox_screen": [
+      227.0,
+      221.0,
+      867.0,
+      20.0
+    ]
+  },
+  {
+    "id": 154,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      227.0,
+      187.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      227.0,
+      223.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 155,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      246.0,
+      187.0,
+      33.0,
+      16.0
+    ],
+    "bbox_screen": [
+      246.0,
+      223.0,
+      33.0,
+      16.0
+    ]
+  },
+  {
+    "id": 156,
+    "desc": "显示三角形",
+    "role": "AXDisclosureTriangle",
+    "role_description": "显示三角形",
+    "subrole": null,
+    "bbox": [
+      213.0,
+      185.0,
+      13.0,
+      20.0
+    ],
+    "bbox_screen": [
+      213.0,
+      221.0,
+      13.0,
+      20.0
+    ]
+  },
+  {
+    "id": 157,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1080.0,
+      185.0,
+      162.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      221.0,
+      162.0,
+      20.0
+    ]
+  },
+  {
+    "id": 158,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1085.0,
+      187.0,
+      152.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1085.0,
+      223.0,
+      152.0,
+      16.0
+    ]
+  },
+  {
+    "id": 159,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1242.0,
+      185.0,
+      97.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      221.0,
+      97.0,
+      20.0
+    ]
+  },
+  {
+    "id": 160,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1318.0,
+      187.0,
+      17.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1318.0,
+      223.0,
+      17.0,
+      16.0
+    ]
+  },
+  {
+    "id": 161,
+    "desc": "单元格",
+    "role": "AXCell",
+    "role_description": "单元格",
+    "subrole": null,
+    "bbox": [
+      1339.0,
+      185.0,
+      115.0,
+      20.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      221.0,
+      115.0,
+      20.0
+    ]
+  },
+  {
+    "id": 162,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1344.0,
+      187.0,
+      44.0,
+      16.0
+    ],
+    "bbox_screen": [
+      1344.0,
+      223.0,
+      44.0,
+      16.0
+    ]
+  },
+  {
+    "id": 163,
+    "desc": "栏",
+    "role": "AXColumn",
+    "role_description": "栏",
+    "subrole": null,
+    "bbox": [
+      211.0,
+      52.0,
+      869.0,
+      868.0
+    ],
+    "bbox_screen": [
+      211.0,
+      88.0,
+      869.0,
+      868.0
+    ]
+  },
+  {
+    "id": 164,
+    "desc": "栏",
+    "role": "AXColumn",
+    "role_description": "栏",
+    "subrole": null,
+    "bbox": [
+      1080.0,
+      52.0,
+      162.0,
+      868.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      88.0,
+      162.0,
+      868.0
+    ]
+  },
+  {
+    "id": 165,
+    "desc": "栏",
+    "role": "AXColumn",
+    "role_description": "栏",
+    "subrole": null,
+    "bbox": [
+      1242.0,
+      52.0,
+      97.0,
+      868.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      88.0,
+      97.0,
+      868.0
+    ]
+  },
+  {
+    "id": 166,
+    "desc": "栏",
+    "role": "AXColumn",
+    "role_description": "栏",
+    "subrole": null,
+    "bbox": [
+      1339.0,
+      52.0,
+      121.0,
+      868.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      88.0,
+      121.0,
+      868.0
+    ]
+  },
+  null,
+  {
+    "id": 167,
+    "desc": "排序按钮",
+    "role": "AXButton",
+    "role_description": "排序按钮",
+    "subrole": "AXSortButton",
+    "bbox": [
+      211.0,
+      52.0,
+      869.0,
+      28.0
+    ],
+    "bbox_screen": [
+      211.0,
+      88.0,
+      869.0,
+      28.0
+    ]
+  },
+  {
+    "id": 168,
+    "desc": "排序按钮",
+    "role": "AXButton",
+    "role_description": "排序按钮",
+    "subrole": "AXSortButton",
+    "bbox": [
+      1080.0,
+      52.0,
+      162.0,
+      28.0
+    ],
+    "bbox_screen": [
+      1080.0,
+      88.0,
+      162.0,
+      28.0
+    ]
+  },
+  {
+    "id": 169,
+    "desc": "排序按钮",
+    "role": "AXButton",
+    "role_description": "排序按钮",
+    "subrole": "AXSortButton",
+    "bbox": [
+      1242.0,
+      52.0,
+      97.0,
+      28.0
+    ],
+    "bbox_screen": [
+      1242.0,
+      88.0,
+      97.0,
+      28.0
+    ]
+  },
+  {
+    "id": 170,
+    "desc": "排序按钮",
+    "role": "AXButton",
+    "role_description": "排序按钮",
+    "subrole": "AXSortButton",
+    "bbox": [
+      1339.0,
+      52.0,
+      121.0,
+      28.0
+    ],
+    "bbox_screen": [
+      1339.0,
+      88.0,
+      121.0,
+      28.0
+    ]
+  },
+  {
+    "id": 171,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      274.5,
+      852.0,
+      425.5,
+      52.0
+    ],
+    "bbox_screen": [
+      274.5,
+      888.0,
+      425.5,
+      52.0
+    ]
+  },
+  {
+    "id": 172,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      0.0,
+      1470.0,
+      68.0
+    ],
+    "bbox_screen": [
+      0.0,
+      36.0,
+      1470.0,
+      68.0
+    ]
+  },
+  {
+    "id": 173,
+    "desc": "工具栏",
+    "role": "AXToolbar",
+    "role_description": "工具栏",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      0.0,
+      1470.0,
+      52.0
+    ],
+    "bbox_screen": [
+      0.0,
+      36.0,
+      1470.0,
+      52.0
+    ]
+  },
+  {
+    "id": 174,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      209.0,
+      0.0,
+      65.5,
+      52.0
+    ],
+    "bbox_screen": [
+      209.0,
+      36.0,
+      65.5,
+      52.0
+    ]
+  },
+  {
+    "id": 175,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      217.0,
+      9.0,
+      50.0,
+      25.0
+    ],
+    "bbox_screen": [
+      217.0,
+      45.0,
+      50.0,
+      25.0
+    ]
+  },
+  {
+    "id": 176,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      217.0,
+      9.0,
+      25.0,
+      25.0
+    ],
+    "bbox_screen": [
+      217.0,
+      45.0,
+      25.0,
+      25.0
+    ]
+  },
+  {
+    "id": 177,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      242.0,
+      9.0,
+      25.0,
+      25.0
+    ],
+    "bbox_screen": [
+      242.0,
+      45.0,
+      25.0,
+      25.0
+    ]
+  },
+  {
+    "id": 178,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      212.0,
+      35.0,
+      59.5,
+      14.0
+    ],
+    "bbox_screen": [
+      212.0,
+      71.0,
+      59.5,
+      14.0
+    ]
+  },
+  {
+    "id": 179,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      700.0,
+      0.0,
+      131.0,
+      52.0
+    ],
+    "bbox_screen": [
+      700.0,
+      36.0,
+      131.0,
+      52.0
+    ]
+  },
+  {
+    "id": 180,
+    "desc": "单选按钮组",
+    "role": "AXRadioGroup",
+    "role_description": "单选按钮组",
+    "subrole": null,
+    "bbox": [
+      703.0,
+      9.0,
+      125.0,
+      25.0
+    ],
+    "bbox_screen": [
+      703.0,
+      45.0,
+      125.0,
+      25.0
+    ]
+  },
+  {
+    "id": 181,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      703.0,
+      9.0,
+      32.0,
+      25.0
+    ],
+    "bbox_screen": [
+      703.0,
+      45.0,
+      32.0,
+      25.0
+    ]
+  },
+  {
+    "id": 182,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      735.0,
+      9.0,
+      31.0,
+      25.0
+    ],
+    "bbox_screen": [
+      735.0,
+      45.0,
+      31.0,
+      25.0
+    ]
+  },
+  {
+    "id": 183,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      766.0,
+      9.0,
+      31.0,
+      25.0
+    ],
+    "bbox_screen": [
+      766.0,
+      45.0,
+      31.0,
+      25.0
+    ]
+  },
+  {
+    "id": 184,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      797.0,
+      9.0,
+      31.0,
+      25.0
+    ],
+    "bbox_screen": [
+      797.0,
+      45.0,
+      31.0,
+      25.0
+    ]
+  },
+  {
+    "id": 185,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      750.5,
+      35.0,
+      30.5,
+      14.0
+    ],
+    "bbox_screen": [
+      750.5,
+      71.0,
+      30.5,
+      14.0
+    ]
+  },
+  {
+    "id": 186,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      855.0,
+      0.0,
+      54.0,
+      52.0
+    ],
+    "bbox_screen": [
+      855.0,
+      36.0,
+      54.0,
+      52.0
+    ]
+  },
+  {
+    "id": 187,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      858.0,
+      9.0,
+      48.0,
+      25.0
+    ],
+    "bbox_screen": [
+      858.0,
+      45.0,
+      48.0,
+      25.0
+    ]
+  },
+  {
+    "id": 188,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      867.0,
+      35.0,
+      30.5,
+      14.0
+    ],
+    "bbox_screen": [
+      867.0,
+      71.0,
+      30.5,
+      14.0
+    ]
+  },
+  {
+    "id": 189,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": null,
+    "bbox": [
+      909.0,
+      0.0,
+      48.0,
+      52.0
+    ],
+    "bbox_screen": [
+      909.0,
+      36.0,
+      48.0,
+      52.0
+    ]
+  },
+  {
+    "id": 190,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": null,
+    "bbox": [
+      957.0,
+      0.0,
+      59.0,
+      52.0
+    ],
+    "bbox_screen": [
+      957.0,
+      36.0,
+      59.0,
+      52.0
+    ]
+  },
+  {
+    "id": 191,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      1016.0,
+      0.0,
+      52.0,
+      52.0
+    ],
+    "bbox_screen": [
+      1016.0,
+      36.0,
+      52.0,
+      52.0
+    ]
+  },
+  {
+    "id": 192,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      1019.0,
+      9.0,
+      46.0,
+      25.0
+    ],
+    "bbox_screen": [
+      1019.0,
+      45.0,
+      46.0,
+      25.0
+    ]
+  },
+  {
+    "id": 193,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1027.0,
+      35.0,
+      30.5,
+      14.0
+    ],
+    "bbox_screen": [
+      1027.0,
+      71.0,
+      30.5,
+      14.0
+    ]
+  },
+  {
+    "id": 194,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      1092.0,
+      0.0,
+      37.0,
+      52.0
+    ],
+    "bbox_screen": [
+      1092.0,
+      36.0,
+      37.0,
+      52.0
+    ]
+  },
+  {
+    "id": 195,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      1095.0,
+      9.0,
+      31.0,
+      25.0
+    ],
+    "bbox_screen": [
+      1095.0,
+      45.0,
+      31.0,
+      25.0
+    ]
+  },
+  {
+    "id": 196,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1105.5,
+      35.0,
+      10.0,
+      14.0
+    ],
+    "bbox_screen": [
+      1105.5,
+      71.0,
+      10.0,
+      14.0
+    ]
+  },
+  {
+    "id": 197,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      1129.0,
+      0.0,
+      333.0,
+      52.0
+    ],
+    "bbox_screen": [
+      1129.0,
+      36.0,
+      333.0,
+      52.0
+    ]
+  },
+  {
+    "id": 198,
+    "desc": "搜索文本栏",
+    "role": "AXTextField",
+    "role_description": "搜索文本栏",
+    "subrole": "AXSearchField",
+    "bbox": [
+      1132.0,
+      9.0,
+      327.0,
+      25.0
+    ],
+    "bbox_screen": [
+      1132.0,
+      45.0,
+      327.0,
+      25.0
+    ]
+  },
+  {
+    "id": 199,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": null,
+    "bbox": [
+      1134.0,
+      10.0,
+      25.0,
+      22.0
+    ],
+    "bbox_screen": [
+      1134.0,
+      46.0,
+      25.0,
+      22.0
+    ]
+  },
+  {
+    "id": 200,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      1280.5,
+      35.0,
+      30.5,
+      14.0
+    ],
+    "bbox_screen": [
+      1280.5,
+      71.0,
+      30.5,
+      14.0
+    ]
+  }
+]
