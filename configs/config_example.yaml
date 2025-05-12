@@ -1,5 +1,0 @@
-llm:
-  region: "eastus2"
-  model: "gpt-4o-2024-08-06"
-  api_key: "xxxxxxx"
-  api_base: "https://api.tonggpt.mybigai.ac.cn/proxy"

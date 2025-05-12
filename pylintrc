@@ -2,13 +2,13 @@
 ignore=CVS
 persistent=yes
 load-plugins=
+init-hook='import sys; sys.path.append(".")'
 
 [MESSAGES CONTROL]
 disable=C0111,R0903,C0103
 
 [REPORTS]
 output-format=text
-files-output=no
 reports=no
 evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
 
@@ -22,7 +22,6 @@ include-naming-hint=no
 max-line-length=88
 ignore-long-lines=^\s*(# )?<?https?://\S+>?$
 single-line-if-stmt=no
-no-space-check=trailing-comma,dict-separator
 max-module-lines=1000
 ignore=CVS
 

@@ -1,14 +1,14 @@
 """MacOS Agent module for creating and managing AI agents."""
 
-import os
 from importlib.resources import files
 from typing import Any
 
 import yaml
+from smolagents import CodeAgent
 
+from macosagent.agents import agent_box
+from macosagent.llm import create_smol_llm_client
 
-from smolagents import AzureOpenAIServerModel, CodeAgent, OpenAIServerModel
-from macosagent.appagent_box import get_app_agent_box
 
 def create_agent() -> CodeAgent:
     """Create and initialize a MacOS agent with configured model and tools.
@@ -17,27 +17,13 @@ def create_agent() -> CodeAgent:
         CodeAgent: An initialized MacOS agent instance with configured model and tools.
     """
     # Initialize the agent with the model and tools
-    if os.environ.get("API_SERVER_TYPE") == "AZURE":
-        llm_engine = AzureOpenAIServerModel(
-            model_id=os.environ.get("AZURE_MODEL"),
-            azure_endpoint=os.environ.get("AZURE_ENDPOINT"),
-            api_key=os.environ.get("AZURE_API_KEY"),
-            api_version=os.environ.get("AZURE_API_VERSION"),
-        )
-    elif os.environ.get("API_SERVER_TYPE") == "OPENAI":
-        llm_engine = OpenAIServerModel(
-            model_id=os.environ.get("MODEL"),
-            api_base=os.environ.get("API_BASE"),
-            api_key=os.environ.get("API_KEY"),
-        )
-    else:
-        raise ValueError(
-            "Invalid API server type. Please check your .env file and ensure "
-            "API_SERVER_TYPE is set to either 'AZURE' or 'OPENAI'."
-        )
-    
-    app_agent_box = get_app_agent_box()
-    with open(str(files("macosagent").joinpath("prompt.yaml")), encoding="utf-8") as file:
+    llm_engine = create_smol_llm_client()
+    app_agent_box = []
+    for _, v in agent_box.items():
+        app_agent_box.append(v)
+    with open(
+        str(files("macosagent").joinpath("prompt.yaml")),
+        encoding="utf-8") as file:
         prompt: dict[str, Any] = yaml.safe_load(file)
 
     macos_agent = CodeAgent(

@@ -1,0 +1,268 @@
+[
+  {
+    "id": 1,
+    "desc": "标准窗口",
+    "role": "AXWindow",
+    "role_description": "标准窗口",
+    "subrole": "AXStandardWindow",
+    "bbox": [
+      0.0,
+      0.0,
+      646.0,
+      418.0
+    ],
+    "bbox_screen": [
+      146.0,
+      77.0,
+      646.0,
+      418.0
+    ]
+  },
+  {
+    "id": 2,
+    "desc": "滚动区",
+    "role": "AXScrollArea",
+    "role_description": "滚动区",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      28.0,
+      646.0,
+      390.0
+    ],
+    "bbox_screen": [
+      146.0,
+      105.0,
+      646.0,
+      390.0
+    ]
+  },
+  {
+    "id": 3,
+    "desc": "文本输入区",
+    "role": "AXTextArea",
+    "role_description": "文本输入区",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      28.0,
+      646.0,
+      390.0
+    ],
+    "bbox_screen": [
+      146.0,
+      105.0,
+      646.0,
+      390.0
+    ]
+  },
+  {
+    "id": 4,
+    "desc": "滚动条",
+    "role": "AXScrollBar",
+    "role_description": "滚动条",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      402.0,
+      646.0,
+      16.0
+    ],
+    "bbox_screen": [
+      146.0,
+      479.0,
+      646.0,
+      16.0
+    ]
+  },
+  {
+    "id": 5,
+    "desc": "滚动条",
+    "role": "AXScrollBar",
+    "role_description": "滚动条",
+    "subrole": null,
+    "bbox": [
+      630.0,
+      28.0,
+      16.0,
+      390.0
+    ],
+    "bbox_screen": [
+      776.0,
+      105.0,
+      16.0,
+      390.0
+    ]
+  },
+  {
+    "id": 6,
+    "desc": "关闭按钮",
+    "role": "AXButton",
+    "role_description": "关闭按钮",
+    "subrole": "AXCloseButton",
+    "bbox": [
+      7.0,
+      6.0,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      153.0,
+      83.0,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 7,
+    "desc": "全屏幕按钮",
+    "role": "AXButton",
+    "role_description": "全屏幕按钮",
+    "subrole": "AXFullScreenButton",
+    "bbox": [
+      47.0,
+      6.0,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      193.0,
+      83.0,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 8,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      47.0,
+      6.0,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      193.0,
+      83.0,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 9,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      47.0,
+      6.0,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      193.0,
+      83.0,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 10,
+    "desc": "最小化按钮",
+    "role": "AXButton",
+    "role_description": "最小化按钮",
+    "subrole": "AXMinimizeButton",
+    "bbox": [
+      27.0,
+      6.0,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      173.0,
+      83.0,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 11,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      338.0,
+      5.0,
+      52.0,
+      16.0
+    ],
+    "bbox_screen": [
+      484.0,
+      82.0,
+      52.0,
+      16.0
+    ]
+  },
+  {
+    "id": 12,
+    "desc": "图像",
+    "role": "AXImage",
+    "role_description": "图像",
+    "subrole": null,
+    "bbox": [
+      268.0,
+      5.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      414.0,
+      82.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 13,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      321.0,
+      5.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      467.0,
+      82.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 14,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      286.0,
+      5.0,
+      35.0,
+      16.0
+    ],
+    "bbox_screen": [
+      432.0,
+      82.0,
+      35.0,
+      16.0
+    ]
+  }
+]
