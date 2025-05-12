@@ -1,32 +1,16 @@
-import asyncio
-import base64
 import json
 import logging
-import os
-import time
-from datetime import datetime
-from io import BytesIO
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any
 
-from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import (
-    AIMessage,
     BaseMessage,
-    HumanMessage,
-    SystemMessage,
-    ToolMessage,
 )
-from PIL import Image
-from smolagents import AgentError, MessageRole, Tool, ToolCallingAgent
+from smolagents import Tool
 
-from macosagent.agents.excel_agent.agent.prompt import SYSTEM_PROMPT
+from macosagent.agents.excel_agent.agent.service import ReactJsonAgent
 from macosagent.agents.excel_agent.agent.views import (
-    ActionModel,
-    ActionResult,
     AgentOutput,
 )
-from macosagent.agents.excel_agent.agent.service import ReactJsonAgent
-
 from macosagent.llm import create_langchain_llm_client
 from macosagent.llm.tracing import trace_with_metadata
 
@@ -50,6 +34,7 @@ def log_response(response: AgentOutput) -> None:
         logger.info(
             f"🛠️  Action {i + 1}/{len(response.action)}: {action.model_dump_json(exclude_unset=True)}"
         )
+
 
 def _write_messages_to_file(f: Any, messages: list[BaseMessage]) -> None:
     """Write messages to conversation file"""
@@ -84,12 +69,14 @@ def _write_messages_to_file(f: Any, messages: list[BaseMessage]) -> None:
         f.write("\n")
 
 
-
 class ExcelAgent(Tool):
     name = "excel_agent"
     description = "The Excel-Agent is designed to perform a variety of tasks related to Microsoft Excel worksheets. It can handle basic operations such as opening, saving, and closing worksheets, as well as more complex tasks like inserting values into cells. Additionally, it can delete content and interact with elements using PyAutoGUI. "
     inputs = {
-        "instruction": {"description": "an instruction of a calendar app agent", "type": "string"},
+        "instruction": {
+            "description": "an instruction of a calendar app agent",
+            "type": "string",
+        },
     }
     output_type = "string"
 
@@ -97,10 +84,6 @@ class ExcelAgent(Tool):
     def forward(self, instruction: str) -> str:
         logger.info(f"ExcelAgent instruction: {instruction}")
         llm = create_langchain_llm_client()
-        agent = ReactJsonAgent(
-            llm=llm,
-            max_iterations=20
-        )
+        agent = ReactJsonAgent(llm=llm, max_iterations=20)
         result = agent.run(instruction)
         return result
-    

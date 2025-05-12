@@ -6,7 +6,7 @@ import os
 import time
 from datetime import datetime
 from io import BytesIO
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any
 
 from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import (
@@ -19,7 +19,6 @@ from langchain_core.messages import (
 from PIL import Image
 from smolagents import AgentError, MessageRole, Tool, ToolCallingAgent
 
-from macosagent.agents.word_agent.agent.llm import LLMEngine
 from macosagent.agents.word_agent.agent.prompt import SYSTEM_PROMPT
 from macosagent.agents.word_agent.agent.views import (
     ActionModel,
@@ -28,7 +27,7 @@ from macosagent.agents.word_agent.agent.views import (
 )
 from macosagent.agents.word_agent.word import Word, WordConfig
 from macosagent.agents.word_agent.word.context import WordContext
-from macosagent.llm import create_langchain_llm_client
+from macosagent.llm import LLMEngine, create_langchain_llm_client
 from macosagent.llm.tracing import trace_with_metadata
 
 logger = logging.getLogger(__name__)
@@ -62,8 +61,8 @@ class ReactJsonAgent(ToolCallingAgent):
 
     def __init__(
         self,
-        llm: Optional[BaseChatModel] = None,
-        system_prompt: Optional[str] = SYSTEM_PROMPT,
+        llm: BaseChatModel | None = None,
+        system_prompt: str | None = SYSTEM_PROMPT,
         controller=None,
         max_iterations: int = 6,
         **kwargs,
@@ -102,9 +101,9 @@ class ReactJsonAgent(ToolCallingAgent):
     def get_prompt(
         self,
         task: str,
-        image: Optional[Image.Image] = None,
-        interactive_elements_prompt: Optional[str] = None,
-        interactive_elements: Optional[list[dict]] = None,
+        image: Image.Image | None = None,
+        interactive_elements_prompt: str | None = None,
+        interactive_elements: list[dict] | None = None,
         max_steps: int = 100,
         current_step: int = 0,
     ):
@@ -196,7 +195,7 @@ class ReactJsonAgent(ToolCallingAgent):
 
         return messages
 
-    def step(self, log_entry: Dict[str, Any]):
+    def step(self, log_entry: dict[str, Any]):
         """
         Perform one step in the ReAct framework: the agent thinks, acts, and observes the result.
         The errors are raised here, they are caught and logged in the run() method.
@@ -211,7 +210,7 @@ class ReactJsonAgent(ToolCallingAgent):
         self._make_history(response["raw"], results)
         return results
 
-    def get_next_action(self, log_entry: Dict[str, Any]) -> Dict[str, Any]:
+    def get_next_action(self, log_entry: dict[str, Any]) -> dict[str, Any]:
         task = log_entry.get("task", "")
         if len(task) == 0:
             task = self.task
@@ -431,7 +430,7 @@ class WordAgent(Tool):
         },
     }
     output_type = "string"
-    
+
     @trace_with_metadata(observation_name="word_agent", tags=["word_agent"])
     def forward(self, instruction: str) -> str:
         logger.info(f"WordAgent instruction: {instruction}")
