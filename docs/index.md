@@ -33,9 +33,9 @@ To enable system automation, you need to grant accessibility permissions:
 4. Enable the permission by checking the box
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="figure/acc_tree1.png" alt="Accessibility Tree Permission 1" width="32%">
-    <img src="figure/acc_tree2.png" alt="Accessibility Tree Permission 2" width="32%">
-    <img src="figure/acc_tree3.png" alt="Accessibility Tree Permission 3" width="32%">
+    <img src="../assets/acc_tree1.png" alt="Accessibility Tree Permission 1" width="32%">
+    <img src="../assets/acc_tree2.png" alt="Accessibility Tree Permission 2" width="32%">
+    <img src="../assets/acc_tree3.png" alt="Accessibility Tree Permission 3" width="32%">
 </div>
 
 ## Usage
