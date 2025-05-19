@@ -19,67 +19,9 @@ A powerful automation agent for macOS that enables natural language control of v
 - **Playwright Integration**: Web automation capabilities
 - **Accessibility Support**: Seamless integration with macOS accessibility features
 
-## Prerequisites
+## Installation & Usage
 
-- **macOS**: This project is specifically designed for macOS systems
-- **Python 3.11**: Required for running the agent
-- **uv**: Fast Python package installer and resolver
-- **Git**: For version control and repository management
-
-## Installation
-
-### 1. Install Python Dependencies
-
-Follow the instructions in the [uv documentation](https://docs.astral.sh/uv/reference/cli/#uv) to install uv.
-
-### 2. Clone and Setup the Repository
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/MacOS-Agent.git
-cd MacOS-Agent
-
-# Install project dependencies
-uv sync
-```
-
-### 3. Install Playwright
-
-```bash
-# Install Playwright for web automation
-npm init playwright@latest
-```
-
-### 4. Conassets Accessibility Permissions
-
-To enable system automation, you need to grant accessibility permissions:
-
-1. Open System Settings > Privacy & Security > Accessibility
-2. Click the "+" button to add your code editor
-3. Navigate to Applications and select your editor
-4. Enable the permission by checking the box
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="assets/acc_tree1.png" alt="Accessibility Tree Permission 1" width="32%">
-    <img src="assets/acc_tree2.png" alt="Accessibility Tree Permission 2" width="32%">
-    <img src="assets/acc_tree3.png" alt="Accessibility Tree Permission 3" width="32%">
-</div>
-
-## Usage
-
-Run the agent with your desired command:
-
-```bash
-uv run main.py --prompt "Your task description here"
-```
-
-## Configuration
-
-The project uses environment variables for configuration. Copy `.env.example` to `.env` and modify the settings as needed:
-
-```bash
-cp .env.example .env
-```
+Please refer to the [Installation Guide](docs/index.md) for detailed instructions on how to install and configure the MacOS Agent.
 
 ## Contributing
 
