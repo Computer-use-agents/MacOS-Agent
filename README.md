@@ -2,6 +2,10 @@
 
 A powerful automation agent for macOS that enables natural language control of various system applications and services. This agent allows you to interact with your Mac using simple text commands, automating tasks across multiple applications including Finder, TextEdit, Preview, and more.
 
+[🌐 Project Page](https://computer-use-agents.github.io/macos/)
+
+![MacOS Agent Main Page](assets/main_page1.png)
+
 ## Features
 
 - **Natural Language Interface**: Control your Mac using simple text commands
