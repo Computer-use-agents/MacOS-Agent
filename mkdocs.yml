@@ -1,5 +1,5 @@
 site_name: MacOS Agent
-site_url: https://computer-use-agents.github.io/macos/
+site_url: https://computer-use-agents.github.io/MacOS-Agent/
 repo_url: https://github.com/computer-use-agents/MacOS-Agent
 repo_name: computer-use-agents/MacOS-Agent
 edit_uri: edit/main/docs/
@@ -32,7 +32,6 @@ theme:
       accent: indigo
 
 plugins:
-  - search
   - awesome-pages
   - i18n:
       docs_structure: suffix
