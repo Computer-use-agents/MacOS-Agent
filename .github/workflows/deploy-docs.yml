@@ -1,0 +1,24 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches:
+      - feat/docs  # Or your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin pymdown-extensions mkdocs-static-i18n
+      - name: Deploy to GitHub Pages
+        run: |
+          mkdocs gh-deploy --force --clean 

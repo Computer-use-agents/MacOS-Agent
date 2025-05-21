@@ -25,17 +25,11 @@ A powerful automation agent for macOS that enables natural language control of v
 
 ## Installation & Usage
 
-Please refer to the [Installation Guide](docs/index.md) for detailed instructions on how to install and configure the MacOS Agent.
+Please refer to the [Installation Guide](https://computer-use-agents.github.io/MacOS-Agent/#installation) for detailed instructions on how to install and configure the MacOS Agent.
 
 ## Contributing
 
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+Follow the instructions for [development guidelines](https://computer-use-agents.github.io/MacOS-Agent/#development-setup).
 
 ## Troubleshooting
 
