@@ -3,7 +3,7 @@ name: Deploy Documentation
 on:
   push:
     branches:
-      - feat/docs  # Or your default branch
+      - main  # Or your default branch
 
 jobs:
   deploy:
