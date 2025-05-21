@@ -1,4 +1,13 @@
-theme: jekyll-theme-minimal
-title: MacOS Agent Documentation
-description: Documentation for the MacOS Agent project
-show_downloads: true 
+exclude:
+  - macosagent
+  - tests
+  - examples
+
+remote_theme: marella/jekyll-theme-documentation
+
+permalink: pretty
+nav:
+  - Getting Started:
+    - Introduction: ''
+  - Examples:
+    - Markdown: docs/examples
