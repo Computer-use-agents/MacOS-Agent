@@ -34,6 +34,19 @@ theme:
 plugins:
   - search
   - awesome-pages
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: zh
+          name: 中文
+          build: true
+      nav_translations:
+        zh:
+          Home: 首页
 
 markdown_extensions:
   - pymdownx.highlight:

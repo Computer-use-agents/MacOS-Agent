@@ -89,4 +89,4 @@ This project uses pre-commit hooks to ensure code quality before each commit. Th
 4. When you do git commit, the pre-commit hooks will run automatically. If you want to skip the hooks, you can use `git commit --no-verify`.
 #### Customization
 
-- ruff is configured to auto
+- ruff is configured to auto 
