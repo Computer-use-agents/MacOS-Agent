@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 from macosagent.agents.wechat_agent.controller.registry.service import Registry
 from macosagent.agents.wechat_agent.wechat.context import WechatContext
-from macosagent.agents.wechat_agent.controller.views import ClickElementAction, InputAction, DoneAction, ScrollAction, PasteAction, CopyAction, RightClickElementAction, SendAction
+from macosagent.agents.wechat_agent.controller.views import ClickElementAction, InputAction, DoneAction, ScrollAction, PasteAction, CopyAction, RightClickElementAction, SendAction, ExtractContent
 from macosagent.agents.wechat_agent.agent.views import ActionResult, ActionModel
 #from macosagent.agents.wechat_agent.agent.llm import create_gpt_4o_tool  
 
@@ -136,27 +136,67 @@ class Controller(Generic[Context]):
                 return ActionResult(is_done=False, success=False, extracted_content=str(e), include_in_memory=True)
 
         @self.registry.action(
-            "Scroll element",
+            "Scroll element up",
             param_model=ScrollAction,
         )
-        async def scroll(params: ScrollAction, context: WechatContext):
+        async def scroll_up(params: ScrollAction, context: WechatContext):
             index = params.index
             element = [item for item in context.state.accessibility_tree_json if item["id"] == index]
             x, y, w, h = element[0]["bbox"]
             offset = context.state.offset
-            x = int(x + offset[0] + w/2)
-            y = int(y + offset[1] + h/2)
-            logger.info(f"Scroll element {element[0]}")
+            x = int(x + offset[0] + w / 2)
+            y = int(y + offset[1] + h / 2)
             try:
-                amount = params.amount if params.amount is not None else 0  # Default to scrolling one page if amount is None
-                logger.info(f"Scrolling {amount} pixels")
-                # pyautogui.click(x=x, y=y, clicks=1, interval=0.1, button='left')
+                amount = -abs(params.amount) if params.amount is not None else -10
+                logger.info(f"Scroll element {element[0]} up")
                 pyautogui.moveTo(x, y, duration=0.1)
-                pyautogui.scroll(amount)  # Use pyautogui to scroll by 'amount' pixels
-                return ActionResult(is_done=False, success=True, extracted_content=f"🌀  Scrolled {amount} pixels", include_in_memory=True)
+                pyautogui.scroll(amount)
+                return ActionResult(
+                    is_done=False,
+                    success=True,
+                    extracted_content=f"🌀 Scrolled up {abs(amount)} pixels",
+                    include_in_memory=True,
+                )
             except Exception as e:
-                logger.error(f"Error scrolling: {e}")
-                return ActionResult(is_done=False, success=False, extracted_content=str(e), include_in_memory=True)
+                logger.error(f"Error scrolling up: {e}")
+                return ActionResult(
+                    is_done=False,
+                    success=False,
+                    extracted_content=str(e),
+                    include_in_memory=True,
+                )
+
+        @self.registry.action(
+            "Scroll element down",
+            param_model=ScrollAction,
+        )
+        async def scroll_down(params: ScrollAction, context: WechatContext):
+            index = params.index
+            element = [item for item in context.state.accessibility_tree_json if item["id"] == index]
+            x, y, w, h = element[0]["bbox"]
+            offset = context.state.offset
+            x = int(x + offset[0] + w / 2)
+            y = int(y + offset[1] + h / 2)
+            try:
+                amount = abs(params.amount) if params.amount is not None else 10
+                logger.info(f"Scroll element {element[0]} down")
+                pyautogui.moveTo(x, y, duration=0.1)
+                pyautogui.scroll(amount)
+                return ActionResult(
+                    is_done=False,
+                    success=True,
+                    extracted_content=f"🌀 Scrolled down {abs(amount)} pixels",
+                    include_in_memory=True,
+                )
+            except Exception as e:
+                logger.error(f"Error scrolling down: {e}")
+                return ActionResult(
+                    is_done=False,
+                    success=False,
+                    extracted_content=str(e),
+                    include_in_memory=True,
+                )
+
 
         @self.registry.action(
             "Paste clipboard text",
@@ -235,6 +275,23 @@ class Controller(Generic[Context]):
                 return ActionResult(is_done=False, success=True, extracted_content=f"📄 Send message in index {params.index}", include_in_memory=True)
             except Exception as e:
                 logger.error(f"Error pasting text: {e}")
+                return ActionResult(is_done=False, success=False, extracted_content=str(e), include_in_memory=True)
+
+        @self.registry.action(
+            "Extract content",
+            param_model=ExtractContent,
+        )
+        async def extract_content(params: ExtractContent, context: WechatContext):
+            try:
+                target = params.target
+                content = params.content
+
+                logger.info(f"Extracted content based on the requirement '{target}': {content}")
+
+                return ActionResult(is_done=False, success=True, extracted_content=f"📋 Extracted content based on the requirement '{target}': {content}", include_in_memory=True)
+            
+            except Exception as e:
+                logger.error(f"Error extracting content based on the requirement '{target}': {e}")
                 return ActionResult(is_done=False, success=False, extracted_content=str(e), include_in_memory=True)
 
         # @self.registry.action(

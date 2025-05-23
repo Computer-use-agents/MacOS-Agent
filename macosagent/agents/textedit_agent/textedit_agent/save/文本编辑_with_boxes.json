@@ -8,14 +8,14 @@
     "bbox": [
       0.0,
       0.0,
-      646.0,
-      418.0
+      586.0,
+      476.0
     ],
     "bbox_screen": [
-      146.0,
-      77.0,
-      646.0,
-      418.0
+      222.0,
+      80.0,
+      586.0,
+      476.0
     ]
   },
   {
@@ -26,15 +26,15 @@
     "subrole": null,
     "bbox": [
       0.0,
-      28.0,
-      646.0,
-      390.0
+      56.0,
+      586.0,
+      420.0
     ],
     "bbox_screen": [
-      146.0,
-      105.0,
-      646.0,
-      390.0
+      222.0,
+      136.0,
+      586.0,
+      420.0
     ]
   },
   {
@@ -45,15 +45,15 @@
     "subrole": null,
     "bbox": [
       0.0,
-      28.0,
-      646.0,
-      390.0
+      88.0,
+      586.0,
+      388.0
     ],
     "bbox_screen": [
-      146.0,
-      105.0,
-      646.0,
-      390.0
+      222.0,
+      168.0,
+      586.0,
+      388.0
     ]
   },
   {
@@ -63,16 +63,16 @@
     "role_description": "滚动条",
     "subrole": null,
     "bbox": [
-      0.0,
-      402.0,
-      646.0,
-      16.0
+      -1.0,
+      459.0,
+      588.0,
+      18.0
     ],
     "bbox_screen": [
-      146.0,
-      479.0,
-      646.0,
-      16.0
+      221.0,
+      539.0,
+      588.0,
+      18.0
     ]
   },
   {
@@ -82,187 +82,928 @@
     "role_description": "滚动条",
     "subrole": null,
     "bbox": [
-      630.0,
-      28.0,
-      16.0,
+      569.0,
+      87.0,
+      18.0,
       390.0
     ],
     "bbox_screen": [
-      776.0,
-      105.0,
-      16.0,
+      791.0,
+      167.0,
+      18.0,
       390.0
     ]
   },
   {
     "id": 6,
-    "desc": "关闭按钮",
-    "role": "AXButton",
-    "role_description": "关闭按钮",
-    "subrole": "AXCloseButton",
+    "desc": "标尺",
+    "role": "AXRuler",
+    "role_description": "标尺",
+    "subrole": null,
     "bbox": [
-      7.0,
-      6.0,
-      14.0,
-      16.0
+      0.0,
+      56.0,
+      586.0,
+      32.0
     ],
     "bbox_screen": [
-      153.0,
-      83.0,
-      14.0,
-      16.0
+      222.0,
+      136.0,
+      586.0,
+      32.0
     ]
   },
   {
     "id": 7,
-    "desc": "全屏幕按钮",
-    "role": "AXButton",
-    "role_description": "全屏幕按钮",
-    "subrole": "AXFullScreenButton",
+    "desc": "标尺标记",
+    "role": "AXRulerMarker",
+    "role_description": "标尺标记",
+    "subrole": null,
     "bbox": [
-      47.0,
-      6.0,
-      14.0,
-      16.0
+      1.0,
+      65.0,
+      9.0,
+      6.0
     ],
     "bbox_screen": [
-      193.0,
-      83.0,
-      14.0,
-      16.0
+      223.0,
+      145.0,
+      9.0,
+      6.0
     ]
   },
   {
     "id": 8,
-    "desc": "组",
-    "role": "AXGroup",
-    "role_description": "组",
+    "desc": "标尺标记",
+    "role": "AXRulerMarker",
+    "role_description": "标尺标记",
     "subrole": null,
     "bbox": [
-      47.0,
-      6.0,
-      14.0,
-      16.0
+      577.0,
+      65.0,
+      9.0,
+      6.0
     ],
     "bbox_screen": [
-      193.0,
-      83.0,
-      14.0,
-      16.0
+      799.0,
+      145.0,
+      9.0,
+      6.0
     ]
   },
   {
     "id": 9,
+    "desc": "标尺标记",
+    "role": "AXRulerMarker",
+    "role_description": "标尺标记",
+    "subrole": null,
+    "bbox": [
+      1.0,
+      61.0,
+      9.0,
+      10.0
+    ],
+    "bbox_screen": [
+      223.0,
+      141.0,
+      9.0,
+      10.0
+    ]
+  },
+  {
+    "id": 10,
+    "desc": "工具栏",
+    "role": "AXToolbar",
+    "role_description": "工具栏",
+    "subrole": null,
+    "bbox": [
+      0.0,
+      28.0,
+      586.0,
+      28.0
+    ],
+    "bbox_screen": [
+      222.0,
+      108.0,
+      586.0,
+      28.0
+    ]
+  },
+  {
+    "id": 11,
+    "desc": "弹出式按钮",
+    "role": "AXPopUpButton",
+    "role_description": "弹出式按钮",
+    "subrole": null,
+    "bbox": [
+      7.0,
+      32.0,
+      100.0,
+      20.0
+    ],
+    "bbox_screen": [
+      229.0,
+      112.0,
+      100.0,
+      20.0
+    ]
+  },
+  {
+    "id": 12,
+    "desc": "弹出式按钮",
+    "role": "AXPopUpButton",
+    "role_description": "弹出式按钮",
+    "subrole": null,
+    "bbox": [
+      112.0,
+      32.0,
+      100.0,
+      20.0
+    ],
+    "bbox_screen": [
+      334.0,
+      112.0,
+      100.0,
+      20.0
+    ]
+  },
+  {
+    "id": 13,
+    "desc": "组合框",
+    "role": "AXComboBox",
+    "role_description": "组合框",
+    "subrole": null,
+    "bbox": [
+      217.0,
+      32.0,
+      45.0,
+      20.0
+    ],
+    "bbox_screen": [
+      439.0,
+      112.0,
+      45.0,
+      20.0
+    ]
+  },
+  {
+    "id": 14,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": null,
+    "bbox": [
+      243.0,
+      32.0,
+      21.0,
+      21.0
+    ],
+    "bbox_screen": [
+      465.0,
+      112.0,
+      21.0,
+      21.0
+    ]
+  },
+  {
+    "id": 15,
+    "desc": "颜色池",
+    "role": "AXColorWell",
+    "role_description": "颜色池",
+    "subrole": null,
+    "bbox": [
+      269.0,
+      32.0,
+      22.0,
+      20.0
+    ],
+    "bbox_screen": [
+      491.0,
+      112.0,
+      22.0,
+      20.0
+    ]
+  },
+  {
+    "id": 16,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": null,
+    "bbox": [
+      269.0,
+      32.0,
+      22.0,
+      20.0
+    ],
+    "bbox_screen": [
+      491.0,
+      112.0,
+      22.0,
+      20.0
+    ]
+  },
+  {
+    "id": 17,
+    "desc": "颜色池",
+    "role": "AXColorWell",
+    "role_description": "颜色池",
+    "subrole": null,
+    "bbox": [
+      296.0,
+      32.0,
+      22.0,
+      20.0
+    ],
+    "bbox_screen": [
+      518.0,
+      112.0,
+      22.0,
+      20.0
+    ]
+  },
+  {
+    "id": 18,
+    "desc": "按钮",
+    "role": "AXButton",
+    "role_description": "按钮",
+    "subrole": null,
+    "bbox": [
+      296.0,
+      32.0,
+      22.0,
+      20.0
+    ],
+    "bbox_screen": [
+      518.0,
+      112.0,
+      22.0,
+      20.0
+    ]
+  },
+  {
+    "id": 19,
     "desc": "组",
     "role": "AXGroup",
     "role_description": "组",
     "subrole": null,
     "bbox": [
-      47.0,
-      6.0,
-      14.0,
-      16.0
+      325.0,
+      32.0,
+      64.0,
+      20.0
     ],
     "bbox_screen": [
-      193.0,
-      83.0,
-      14.0,
-      16.0
+      547.0,
+      112.0,
+      64.0,
+      20.0
     ]
   },
   {
-    "id": 10,
-    "desc": "最小化按钮",
-    "role": "AXButton",
-    "role_description": "最小化按钮",
-    "subrole": "AXMinimizeButton",
+    "id": 20,
+    "desc": "复选框",
+    "role": "AXCheckBox",
+    "role_description": "复选框",
+    "subrole": "AXSegment",
     "bbox": [
-      27.0,
-      6.0,
-      14.0,
-      16.0
+      325.0,
+      32.0,
+      22.0,
+      21.0
     ],
     "bbox_screen": [
-      173.0,
-      83.0,
-      14.0,
-      16.0
+      547.0,
+      112.0,
+      22.0,
+      21.0
     ]
   },
   {
-    "id": 11,
+    "id": 21,
+    "desc": "复选框",
+    "role": "AXCheckBox",
+    "role_description": "复选框",
+    "subrole": "AXSegment",
+    "bbox": [
+      347.0,
+      32.0,
+      21.0,
+      21.0
+    ],
+    "bbox_screen": [
+      569.0,
+      112.0,
+      21.0,
+      21.0
+    ]
+  },
+  {
+    "id": 22,
+    "desc": "复选框",
+    "role": "AXCheckBox",
+    "role_description": "复选框",
+    "subrole": "AXSegment",
+    "bbox": [
+      368.0,
+      32.0,
+      21.0,
+      21.0
+    ],
+    "bbox_screen": [
+      590.0,
+      112.0,
+      21.0,
+      21.0
+    ]
+  },
+  {
+    "id": 23,
+    "desc": "单选按钮组",
+    "role": "AXRadioGroup",
+    "role_description": "单选按钮组",
+    "subrole": null,
+    "bbox": [
+      396.0,
+      32.0,
+      85.0,
+      20.0
+    ],
+    "bbox_screen": [
+      618.0,
+      112.0,
+      85.0,
+      20.0
+    ]
+  },
+  {
+    "id": 24,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      396.0,
+      32.0,
+      22.0,
+      21.0
+    ],
+    "bbox_screen": [
+      618.0,
+      112.0,
+      22.0,
+      21.0
+    ]
+  },
+  {
+    "id": 25,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      418.0,
+      32.0,
+      21.0,
+      21.0
+    ],
+    "bbox_screen": [
+      640.0,
+      112.0,
+      21.0,
+      21.0
+    ]
+  },
+  {
+    "id": 26,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      439.0,
+      32.0,
+      21.0,
+      21.0
+    ],
+    "bbox_screen": [
+      661.0,
+      112.0,
+      21.0,
+      21.0
+    ]
+  },
+  {
+    "id": 27,
+    "desc": "单选按钮",
+    "role": "AXRadioButton",
+    "role_description": "单选按钮",
+    "subrole": "AXSegment",
+    "bbox": [
+      460.0,
+      32.0,
+      21.0,
+      21.0
+    ],
+    "bbox_screen": [
+      682.0,
+      112.0,
+      21.0,
+      21.0
+    ]
+  },
+  {
+    "id": 28,
+    "desc": "弹出式按钮",
+    "role": "AXPopUpButton",
+    "role_description": "弹出式按钮",
+    "subrole": null,
+    "bbox": [
+      488.0,
+      32.0,
+      41.0,
+      20.0
+    ],
+    "bbox_screen": [
+      710.0,
+      112.0,
+      41.0,
+      20.0
+    ]
+  },
+  {
+    "id": 29,
     "desc": "菜单按钮",
     "role": "AXMenuButton",
     "role_description": "菜单按钮",
     "subrole": null,
     "bbox": [
-      338.0,
-      5.0,
-      52.0,
+      534.0,
+      32.0,
+      41.0,
+      20.0
+    ],
+    "bbox_screen": [
+      756.0,
+      112.0,
+      41.0,
+      20.0
+    ]
+  },
+  {
+    "id": 30,
+    "desc": "关闭按钮",
+    "role": "AXButton",
+    "role_description": "关闭按钮",
+    "subrole": "AXCloseButton",
+    "bbox": [
+      6.0,
+      6.0,
+      16.0,
       16.0
     ],
     "bbox_screen": [
-      484.0,
-      82.0,
-      52.0,
+      228.0,
+      86.0,
+      16.0,
       16.0
     ]
   },
   {
-    "id": 12,
+    "id": 31,
+    "desc": "全屏幕按钮",
+    "role": "AXButton",
+    "role_description": "全屏幕按钮",
+    "subrole": "AXFullScreenButton",
+    "bbox": [
+      46.0,
+      6.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      268.0,
+      86.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 32,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      47.0,
+      6.0,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      269.0,
+      86.0,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 33,
+    "desc": "组",
+    "role": "AXGroup",
+    "role_description": "组",
+    "subrole": null,
+    "bbox": [
+      47.0,
+      6.0,
+      14.0,
+      16.0
+    ],
+    "bbox_screen": [
+      269.0,
+      86.0,
+      14.0,
+      16.0
+    ]
+  },
+  {
+    "id": 34,
+    "desc": "最小化按钮",
+    "role": "AXButton",
+    "role_description": "最小化按钮",
+    "subrole": "AXMinimizeButton",
+    "bbox": [
+      26.0,
+      6.0,
+      16.0,
+      16.0
+    ],
+    "bbox_screen": [
+      248.0,
+      86.0,
+      16.0,
+      16.0
+    ]
+  },
+  {
+    "id": 35,
+    "desc": "菜单按钮",
+    "role": "AXMenuButton",
+    "role_description": "菜单按钮",
+    "subrole": null,
+    "bbox": [
+      334.0,
+      4.0,
+      12.0,
+      18.0
+    ],
+    "bbox_screen": [
+      556.0,
+      84.0,
+      12.0,
+      18.0
+    ]
+  },
+  {
+    "id": 36,
+    "desc": "弹出窗口",
+    "role": "AXPopover",
+    "role_description": "弹出窗口",
+    "subrole": null,
+    "bbox": [
+      128.0,
+      21.0,
+      424.0,
+      119.0
+    ],
+    "bbox_screen": [
+      350.0,
+      101.0,
+      424.0,
+      119.0
+    ]
+  },
+  {
+    "id": 37,
+    "desc": "复选框",
+    "role": "AXCheckBox",
+    "role_description": "复选框",
+    "subrole": null,
+    "bbox": [
+      453.5,
+      98.0,
+      76.5,
+      18.0
+    ],
+    "bbox_screen": [
+      675.5,
+      178.0,
+      76.5,
+      18.0
+    ]
+  },
+  {
+    "id": 38,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      150.0,
+      72.0,
+      34.5,
+      18.0
+    ],
+    "bbox_screen": [
+      372.0,
+      152.0,
+      34.5,
+      18.0
+    ]
+  },
+  {
+    "id": 39,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      190.5,
+      44.0,
+      339.5,
+      23.0
+    ],
+    "bbox_screen": [
+      412.5,
+      124.0,
+      339.5,
+      23.0
+    ]
+  },
+  {
+    "id": 40,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      150.0,
+      46.0,
+      34.5,
+      18.0
+    ],
+    "bbox_screen": [
+      372.0,
+      126.0,
+      34.5,
+      18.0
+    ]
+  },
+  {
+    "id": 41,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      150.0,
+      98.0,
+      34.5,
+      18.0
+    ],
+    "bbox_screen": [
+      372.0,
+      178.0,
+      34.5,
+      18.0
+    ]
+  },
+  {
+    "id": 42,
+    "desc": "弹出式按钮",
+    "role": "AXPopUpButton",
+    "role_description": "弹出式按钮",
+    "subrole": null,
+    "bbox": [
+      190.5,
+      97.0,
+      257.0,
+      22.0
+    ],
+    "bbox_screen": [
+      412.5,
+      177.0,
+      257.0,
+      22.0
+    ]
+  },
+  {
+    "id": 43,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      190.5,
+      70.0,
+      339.5,
+      24.0
+    ],
+    "bbox_screen": [
+      412.5,
+      150.0,
+      339.5,
+      24.0
+    ]
+  },
+  {
+    "id": 44,
     "desc": "图像",
     "role": "AXImage",
     "role_description": "图像",
     "subrole": null,
     "bbox": [
-      268.0,
-      5.0,
-      16.0,
-      16.0
+      250.0,
+      4.0,
+      18.0,
+      18.0
     ],
     "bbox_screen": [
-      414.0,
-      82.0,
-      16.0,
-      16.0
+      472.0,
+      84.0,
+      18.0,
+      18.0
     ]
   },
   {
-    "id": 13,
+    "id": 45,
     "desc": "文本",
     "role": "AXStaticText",
     "role_description": "文本",
     "subrole": null,
     "bbox": [
-      321.0,
+      269.0,
       5.0,
-      16.0,
+      66.0,
       16.0
     ],
     "bbox_screen": [
-      467.0,
-      82.0,
-      16.0,
+      491.0,
+      85.0,
+      66.0,
       16.0
     ]
   },
   {
-    "id": 14,
+    "id": 46,
+    "desc": "弹出窗口",
+    "role": "AXPopover",
+    "role_description": "弹出窗口",
+    "subrole": null,
+    "bbox": [
+      128.0,
+      21.0,
+      424.0,
+      119.0
+    ],
+    "bbox_screen": [
+      350.0,
+      101.0,
+      424.0,
+      119.0
+    ]
+  },
+  {
+    "id": 47,
+    "desc": "复选框",
+    "role": "AXCheckBox",
+    "role_description": "复选框",
+    "subrole": null,
+    "bbox": [
+      453.5,
+      98.0,
+      76.5,
+      18.0
+    ],
+    "bbox_screen": [
+      675.5,
+      178.0,
+      76.5,
+      18.0
+    ]
+  },
+  {
+    "id": 48,
     "desc": "文本",
     "role": "AXStaticText",
     "role_description": "文本",
     "subrole": null,
     "bbox": [
-      286.0,
-      5.0,
-      35.0,
-      16.0
+      150.0,
+      72.0,
+      34.5,
+      18.0
     ],
     "bbox_screen": [
-      432.0,
-      82.0,
-      35.0,
-      16.0
+      372.0,
+      152.0,
+      34.5,
+      18.0
+    ]
+  },
+  {
+    "id": 49,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      190.5,
+      44.0,
+      339.5,
+      23.0
+    ],
+    "bbox_screen": [
+      412.5,
+      124.0,
+      339.5,
+      23.0
+    ]
+  },
+  {
+    "id": 50,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      150.0,
+      46.0,
+      34.5,
+      18.0
+    ],
+    "bbox_screen": [
+      372.0,
+      126.0,
+      34.5,
+      18.0
+    ]
+  },
+  {
+    "id": 51,
+    "desc": "文本",
+    "role": "AXStaticText",
+    "role_description": "文本",
+    "subrole": null,
+    "bbox": [
+      150.0,
+      98.0,
+      34.5,
+      18.0
+    ],
+    "bbox_screen": [
+      372.0,
+      178.0,
+      34.5,
+      18.0
+    ]
+  },
+  {
+    "id": 52,
+    "desc": "弹出式按钮",
+    "role": "AXPopUpButton",
+    "role_description": "弹出式按钮",
+    "subrole": null,
+    "bbox": [
+      190.5,
+      97.0,
+      257.0,
+      22.0
+    ],
+    "bbox_screen": [
+      412.5,
+      177.0,
+      257.0,
+      22.0
+    ]
+  },
+  {
+    "id": 53,
+    "desc": "文本栏",
+    "role": "AXTextField",
+    "role_description": "文本栏",
+    "subrole": null,
+    "bbox": [
+      190.5,
+      70.0,
+      339.5,
+      24.0
+    ],
+    "bbox_screen": [
+      412.5,
+      150.0,
+      339.5,
+      24.0
     ]
   }
 ]

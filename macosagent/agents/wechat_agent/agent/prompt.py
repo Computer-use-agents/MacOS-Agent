@@ -68,15 +68,15 @@ Current screenshot
 - Keep track of the status and subresults in the memory. 
 
 9. Action specific rules:
-- Scrolling: When performing a scroll action, use the "scroll" action. 
-    - The `amount` parameter follows the rules of `pyautogui.scroll(amount)`:  
-      - A **positive** value scrolls **up**.  
-      - A **negative** value scrolls **down**.  
-      - The **magnitude** of the `amount` value determines the scroll distance.  
-      - The value of the 'amount' parameter should be between -10 and 10 for a single scroll action to ensure it is manageable and does not cause unexpected behavior.
+- Scrolling: When performing a scroll action, use either the "scroll_up" or "scroll_down" action depending on direction. 
+    - The `amount` parameter must be a positive integer indicating the scroll distance.
+    - The direction is determined by the action type:
+        - `scroll_up`: Scrolls the element up (content moves down)
+        - `scroll_down`: Scrolls the element down (content moves up)
+    - Recommended value range for `amount` is between 1 and 10 to ensure smooth behavior.
     - Example usages:  
-      - **Scroll up (move page content down)**: `{"scroll": {"index": <target_element_index>, "amount": 10}}`  
-      - **Scroll down (move page content up)**: `{"scroll": {"index": <target_element_index>, "amount": -10}}`  
+        - Scroll up: `{"scroll_up": {"index": <target_element_index>, "amount": 5}}`  
+        - Scroll down: `{"scroll_down": {"index": <target_element_index>, "amount": 5}}` 
 
 - Inputting Emojis: When inputting emojis, use the "inputs" action.
     - An example format is "{inputs: {'index': <target_element_index>, "text": "😊"}}". 
@@ -92,9 +92,15 @@ Current screenshot
     - Adding new content:   
         - Example: `{"inputs": {"index": <target_element_index>, "text": "<existing content> new text"}}`
 
-- Summarizing and Inputting Content:  
-    - When required to summarize content, the agent must first extract key points and then input the summary into the designated field using the "input" action.
-    - Example: `{"inputs": {"index": <target_element_index>, "text": "<summary of extracted content>"}}`
+- Extracting Content: When the task requires analyzing or extracting information from the screen (e.g. summarizing a message, identifying key elements, or fulfilling user-specific requirements), use the "extract_content" action.
+    - Provide a clear extraction requirement in the "target" field to guide what should be extracted.
+    - Provide the source text or raw content in the "content" field.
+    - The result of this action will be stored in memory and included in the reasoning chain for follow-up actions.
+    - Example: 
+        {"extract_content": {
+            "target": "Summarize the message for forwarding",
+            "content": "Hi! Here is the updated schedule: Monday - Team Meeting at 10am; Tuesday - Client call at 2pm. Let me know if you're available."
+        }}
 
 - Sending Files: When sending files, always assume the file is already in the clipboard.
     - Use the "paste" action to paste the file, followed by the "send" action to confirm sending.
