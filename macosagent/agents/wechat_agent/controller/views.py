@@ -31,6 +31,10 @@ class CopyAction(BaseModel):
 class SendAction(BaseModel):
 	index: int
 
+class ExtractContent(BaseModel):
+	target: str
+	content: str
+
 # class ModifyClipboardTextAction(BaseModel):
 # 	requirement_text: str
 
