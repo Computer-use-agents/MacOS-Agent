@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://computer-use-agents.github.io/MacOS-Agent/</loc>
+        <lastmod>2025-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://computer-use-agents.github.io/MacOS-Agent/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://computer-use-agents.github.io/MacOS-Agent/zh/"/>
+    </url>
+    <url>
+        <loc>https://computer-use-agents.github.io/MacOS-Agent/zh/</loc>
+        <lastmod>2025-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://computer-use-agents.github.io/MacOS-Agent/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://computer-use-agents.github.io/MacOS-Agent/"/>
+    </url>
+</urlset>
